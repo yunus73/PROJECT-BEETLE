@@ -54,7 +54,7 @@
   tabsize=3}
 
 \DeclareSymbolFont{usualmathcal}{OMS}{cmsy}{m}{n}
-\DeclareSymbolFontAlphabet{\mathcal}{usualmathcal}
+
 \DeclareSymbolFont{letters}{OML}{txmi}{m}{it}
 
 \DeclareMathSymbol{\alpha}{\mathord}{letters}{"0B}
@@ -121,7 +121,7 @@
 		\vspace {35ex}
 		\begin{center}
 			{\huge \bf Project: Beetle} \vspace*{4ex} \\
-			{\huge \bf ProjDat2015} \vspace*{4ex} \\
+			{\huge \bf ProjDat2015}  \\
 			{\large 23. march 2014}\\
 			\vspace*{2ex}
 			qzj710 - 121095 - Enes Golic \\
@@ -135,12 +135,15 @@
 	\end{minipage}
 	
 \newpage
+\tableofcontents
+\newpage
 \section{Project definition}
 Our client is the University of Hamburg – more specifically - their entomology department.\\
 Due to the university’s agreement with the German government, in order to receive funds in support, the university’s material must be publicly accessible. For that purpose, we must design a search engine and corresponding database, which will be accessible from their website. This will allow people to access the information stored by searching for it and subsequently allow the administrators to add new entries.\\ 
 
 \subsection{Problem statement}
 Part one of the project in simple terms is that we have to create a database containing entries that represent insects. An insect in this instance will contain four attributes by which it is characterised: Its name, family, species and genus. Furthermore, each entry must also contain a link to a www.zoomify.com image of the insect. The usage of zoomify is at the request of the university. This is because it allows high-resolution images in which the users can zoom, but also because it prevents a user from simply downloading the image and copying the database. \\
+The university has an ambition to become more publicly available, which is why the search engine will be available for everyone. Any entomology enthusiast will have the opportunity to search for a given insect, given species etc, resulting in a more publicly available university.\\
 Part two is then creating a search engine affiliated with the database we established. The search engine must allow the user to search for the name of any of the four attributes of an insect in the database. Once the search is finished, the engine must then display all entries that contain an attribute fitting the search-criteria.\\
 Part three - the final part – is developing a method, which will allow the employees in the entomology department to both input their own entries into the database we developed and also remove existing entries. This functionality must also be restricted for anybody but the authorised employees, to ensure that the database is only editable by the desired people.\\\\
 For the purpose of organising, the functional requirements of the program are:
