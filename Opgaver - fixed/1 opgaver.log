@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.17)  31 MAR 2015 20:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.17)  31 MAR 2015 22:32
 entering extended mode
 **1*opgaver.tex
 ("C:\Users\yunus\Documents\GitHub\PROJECT-BEETLE\Opgaver - fixed\1 opgaver.tex"
@@ -927,14 +927,14 @@ Overfull \hbox (95.62538pt too wide) in paragraph at lines 155--157
  []
 
 [3 <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Opgaver - fixed/UntitledDiag
-ram.jpg>] <Sequence.jpg, id=52, 714.67pt x 472.76625pt>
-File: Sequence.jpg Graphic file (type jpg)
- <use Sequence.jpg>
-Package pdftex.def Info: Sequence.jpg used on input line 161.
-(pdftex.def)             Requested size: 455.21715pt x 301.1261pt.
+ram.jpg>] <Sequence.png, id=52, 466.1415pt x 443.256pt>
+File: Sequence.png Graphic file (type png)
+ <use Sequence.png>
+Package pdftex.def Info: Sequence.png used on input line 161.
+(pdftex.def)             Requested size: 316.67328pt x 301.1261pt.
 
-[4 <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Opgaver - fixed/Sequence.jpg
->] <DeploymentDiagram.pdf, id=59, 454.69875pt x 644.4075pt>
+[4 <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Opgaver - fixed/Sequence.png
+>] <DeploymentDiagram.pdf, id=61, 454.69875pt x 644.4075pt>
 File: DeploymentDiagram.pdf Graphic file (type pdf)
 
 <use DeploymentDiagram.pdf>
@@ -958,8 +958,8 @@ Package rerunfilecheck Info: File `1*opgaver.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 11587 strings out of 493921
- 156835 string characters out of 3147281
+ 11588 strings out of 493921
+ 156839 string characters out of 3147281
  317636 words of memory out of 3000000
  14632 multiletter control sequences out of 15000+200000
  50557 words of font info for 94 fonts, out of 3000000 for 9000
@@ -969,9 +969,9 @@ Here is how much of TeX's memory you used:
 s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on "1 opgaver.pdf" (6 pages, 285812 bytes).
+Output written on "1 opgaver.pdf" (6 pages, 278918 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
