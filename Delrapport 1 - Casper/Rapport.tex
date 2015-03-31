@@ -115,7 +115,7 @@
 \begin{document}
 	
 	\begin{minipage}[b]{1.0\linewidth} 
-		\includegraphics[height=50mm]{KULogo.pdf}
+				\includegraphics[height=50mm]{KULogo.pdf}
 		
 		\vspace*{-16ex}
 		\vspace {35ex}
@@ -134,11 +134,19 @@
 	\end{minipage}
 	
 \newpage
+\tableofcontents
+
+\newpage
 \section{Project definition}
 Our client is the University of Hamburg – more specifically - their entomology $($insect$)$ department.\\
-Due to the university’s agreement with the German government, in order to receive funds in support, the university’s material must be publicly accessible. For that purpose, we must design a search engine and corresponding database, which will be accessible from their website. This will allow people to access the information stored by searching for it and subsequently allow the administrators to add new entries.\\ 
+Universities in Germany are under public ownership and receive governmental funding as support so that they can run.
+In exchange for this, universities must let all their research and information regarding it be public so that everyone can access it.
+It is in correlation with that, that this product is created.
+University of Hamburg's entomology department has information on insects and their name, family, genus and a picture of it's anatomy - this is however not very easily accessible from their website, meaning that we have to create a way of making the information more accessible.
+This will be done through the creation of a database containing the individual insects, and then a webpage with a search-engine allowing people to search through the database and have the desired insects displayede.
+ 
 
-\subsection{Problem statement}
+\subsection{Problem Statement}
 Part one of the project in simple terms is that we have to create a database containing entries that represent insects. An insect in this instance will contain four attributes by which it is characterised: Its name, family, species and genus. Furthermore, each entry must also contain a link to a www.zoomify.com image of the insect. The usage of zoomify is at the request of the university. This is because it allows high-resolution images in which the users can zoom, but also because it prevents a user from simply downloading the image and copying the database. \\
 Part two is then creating a search engine affiliated with the database we established. The search engine must allow the user to search for the name of any of the four attributes of an insect in the database. Once the search is finished, the engine must then display all entries that contain an attribute fitting the search-criteria.\\
 Part three - the final part – is developing a method, which will allow the employees in the entomology department to both input their own entries into the database we developed and also remove existing entries. This functionality must also be restricted for anybody but the authorised employees, to ensure that the database is only editable by the desired people.\\\\
@@ -154,7 +162,7 @@ For the purpose of organising, the functional requirements of the program are:
 	\item The method of editing the database must be simple enough for people without pre-existing IT skills to use it.
 \end{itemize}
 
-\subsection{Software management plan}
+\subsection{Software Management Plan}
 The database part of the program, responsible for holding all the data for our client, is to be developed in Oracle SQL using Oracle SQL developer.\\
 Proceeding that, the database will communicate with a front-end website containing the search engine, which is to be created using a combination of HTML and CSS for the layout of the website and PHP for the search engine itself.\\
 After that, the method which will allow the authorised employees to edit the database. This will be designed according to the client’s specific wishes with their convenience in mind, and will be developed as either a Java-program if they wish to keep it separate from the website or in PHP if they wish it integrated.\\
@@ -246,7 +254,7 @@ Given access to the database, we are in no way to edit anything not directly rel
 Client~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Developers       
 
 \newpage
-\subsection{Internal Projectetablishment}
+\subsection{Internal Project Establishment}
 The work is set up in the way that people will be focusing on their respective role primarily. Naturally situations will occur where working across these is necessary, but the idea is still to keep people mainly within their assigned area. We expect that each member of the group will spend at least 5 hours every week on their part of the project. In the event that a member of the group is incapable of fulfilling their role due to difficulties/confusion regarding the work, other members of the group will commit to helping the member in question. Should it happen that a member cannot meet his assigned deadline extra work will be assigned due next deadline. In case that member is still unable to fulfill their commitment to the group, internal discussions will be had regarding the responsibilities of said member. \\
 The project is to be split into different areas of focus: rapport-writing, coding, database management and, where applicable, leadership and communication. If a change is requested or required it’ll be made through open discussion involving the entirety of the group before the project manager lies down the final verdict.\\
 We expect full functionality of the code we write and a rapport without any lacks. We also expect every coding member in the group to be able to pick up new concepts of coding if necessary. Finally, the rapport just as well as the coding is the responsibility of each member in the group, and therefore every member is expected to commit an amount of time and focus to writing parts of the rapport. This is to ensure each member of the group improves their rapport-writing with future writing in mind, but also to ensure maximum quality through different inputs in the group.
