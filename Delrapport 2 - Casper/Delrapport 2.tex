@@ -292,8 +292,36 @@ In order to grant an overview of the software-architecture, a class-diagram has 
 
 The class-diagram shows the final product as a webpage offering 2 search-engines; one for basic and one for advanced searching.
 Furthemore, the engines are linked to a database on the back-end, which is editable by administrators (employees), as they have the necessary login credentials. 
-
+\newpage
 \subsection{BCE-model}
+
+To provide an easy reference-point for the different objects in our product and their respective responsibilities, a BCE-model has been created to effectively sort those objects into their representative categories.
+
+\begin{gather*}
+\begin{bmatrix}
+\textbf{Boundary}&\textbf{Control}&\textbf{Entity}\\
+Buttons&Search&Database\\
+Textfields&Advanced Search&Images\\
+Headline&ImageClick\\
+Background&Edit\\
+\end{bmatrix}
+\end{gather*}\\
+\textbf{Boundary:}\\
+
+Everything a user can see is a boundary object. In our case the buttons, search, advanced-search and edit, although also the text fields, the headline and the grey background.\\
+
+\textbf{Entity:}\\
+
+The entities here are all the information from the database, as well as the images that represent a specific set of information (an entry).\\
+
+\textbf{Control:}\\
+
+The search-button grabs the text input into the search-field and matches the term against the database.
+The advanced search-button is similar except that it has 4 fields in which a user can match a term against specific attributes. 
+Clicking on an image will take the user to a full-scale version of the image clicked.
+Finally we have the edit button that allows an employee to change the entries in the database, or add/remove entries.
+These are all control objects as they control one or more parts of the website's functionality.
+
 
 \newpage
 \subsection{Sequence-diagram}

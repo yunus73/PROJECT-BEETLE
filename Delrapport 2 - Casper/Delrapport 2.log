@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.17)  22 APR 2015 00:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.17)  22 APR 2015 01:33
 entering extended mode
 **Delrapport*2.tex
 ("C:\Users\Casper\Desktop\Delrapport 2 - Casper\Delrapport 2.tex"
@@ -1061,157 +1061,183 @@ Overfull \hbox (29.22176pt too wide) in paragraph at lines 291--292
  []
 
 [9 <C:/Users/Casper/Desktop/Delrapport 2 - Casper/ClassDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
 
  []
 
-<UseCase1.png, id=220, 349.90726pt x 304.7385pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+<UseCase1.png, id=226, 349.90726pt x 304.7385pt>
 File: UseCase1.png Graphic file (type png)
  <use UseCase1.png>
-Package pdftex.def Info: UseCase1.png used on input line 304.
+Package pdftex.def Info: UseCase1.png used on input line 332.
 (pdftex.def)             Requested size: 300.57799pt x 261.76535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
 File: UseCase1.png Graphic file (type png)
 <use UseCase1.png>
-Package pdftex.def Info: UseCase1.png used on input line 308.
+Package pdftex.def Info: UseCase1.png used on input line 336.
 (pdftex.def)             Requested size: 300.57799pt x 261.76535pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[10 <C:/Users/Casper/Desktop/Delrapport 2 - Casper/UseCase1.png>]
+[11 <C:/Users/Casper/Desktop/Delrapport 2 - Casper/UseCase1.png>]
 File: UseCase1.png Graphic file (type png)
 
 <use UseCase1.png>
-Package pdftex.def Info: UseCase1.png used on input line 312.
+Package pdftex.def Info: UseCase1.png used on input line 340.
 (pdftex.def)             Requested size: 300.57799pt x 261.76535pt.
- [11]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 319.
+ [12]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 347.
 
  (D:\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (15.67694pt too wide) in paragraph at lines 319--320
+Overfull \hbox (15.67694pt too wide) in paragraph at lines 347--348
 \T1/ptm/m/n/12 The Pro-to-type of our prod-uct can be found and ac-cessed at: [
 ]$\T1/cmtt/m/n/12 http : / / echiever . de / ProjectBeetle /$
  []
 
-[12] <Prototype1.png, id=236, 725.71124pt x 227.04825pt>
+[13] <Prototype1.png, id=243, 725.71124pt x 227.04825pt>
 File: Prototype1.png Graphic file (type png)
  <use Prototype1.png>
-Package pdftex.def Info: Prototype1.png used on input line 355.
+Package pdftex.def Info: Prototype1.png used on input line 383.
 (pdftex.def)             Requested size: 454.70898pt x 142.26378pt.
 
-<Prototype2.png, id=237, 725.71124pt x 249.3315pt>
+<Prototype2.png, id=244, 725.71124pt x 249.3315pt>
 File: Prototype2.png Graphic file (type png)
  <use Prototype2.png>
-Package pdftex.def Info: Prototype2.png used on input line 357.
+Package pdftex.def Info: Prototype2.png used on input line 385.
 (pdftex.def)             Requested size: 496.88774pt x 170.71652pt.
 
-<Prototype3.png, id=238, 726.91576pt x 322.806pt>
+<Prototype3.png, id=245, 726.91576pt x 322.806pt>
 File: Prototype3.png Graphic file (type png)
  <use Prototype3.png>
-Package pdftex.def Info: Prototype3.png used on input line 359.
+Package pdftex.def Info: Prototype3.png used on input line 387.
 (pdftex.def)             Requested size: 448.50911pt x 199.16928pt.
 
-<Prototype4.png, id=239, 726.91576pt x 443.256pt>
+<Prototype4.png, id=246, 726.91576pt x 443.256pt>
 File: Prototype4.png Graphic file (type png)
  <use Prototype4.png>
-Package pdftex.def Info: Prototype4.png used on input line 361.
+Package pdftex.def Info: Prototype4.png used on input line 389.
 (pdftex.def)             Requested size: 466.61096pt x 284.52756pt.
 
-<Prototype5.png, id=240, 726.91576pt x 322.806pt>
+<Prototype5.png, id=247, 726.91576pt x 322.806pt>
 File: Prototype5.png Graphic file (type png)
  <use Prototype5.png>
-Package pdftex.def Info: Prototype5.png used on input line 363.
+Package pdftex.def Info: Prototype5.png used on input line 391.
 (pdftex.def)             Requested size: 512.5866pt x 227.62204pt.
 
-Overfull \hbox (27.41728pt too wide) in paragraph at lines 355--365
+Overfull \hbox (27.41728pt too wide) in paragraph at lines 383--393
 [] 
  []
 
 
-Overfull \hbox (43.11613pt too wide) in paragraph at lines 355--365
+Overfull \hbox (43.11613pt too wide) in paragraph at lines 383--393
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--365
+Underfull \hbox (badness 10000) in paragraph at lines 383--393
 
  []
 
-[13 <C:/Users/Casper/Desktop/Delrapport 2 - Casper/Prototype1.png> <C:/Users/Ca
+[14 <C:/Users/Casper/Desktop/Delrapport 2 - Casper/Prototype1.png> <C:/Users/Ca
 sper/Desktop/Delrapport 2 - Casper/Prototype2.png> <C:/Users/Casper/Desktop/Del
-rapport 2 - Casper/Prototype3.png>] [14 <C:/Users/Casper/Desktop/Delrapport 2 -
+rapport 2 - Casper/Prototype3.png>] [15 <C:/Users/Casper/Desktop/Delrapport 2 -
  Casper/Prototype4.png> <C:/Users/Casper/Desktop/Delrapport 2 - Casper/Prototyp
 e5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 371--378
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 386--392
+Underfull \hbox (badness 10000) in paragraph at lines 399--406
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 394--399
+Underfull \hbox (badness 10000) in paragraph at lines 414--420
 
  []
 
-[17] [18]
-Overfull \hbox (4.8934pt too wide) detected at line 466
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 422--427
+
+ []
+
+[18] [19]
+Overfull \hbox (4.8934pt too wide) detected at line 494
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
+Underfull \hbox (badness 10000) in paragraph at lines 500--503
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
+[20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
  ("C:\Users\Casper\Desktop\Delrapport 2 - Casper\Delrapport 2.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 481.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 481.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
 Package rerunfilecheck Info: File `Delrapport*2.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 481.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 509.
  ) 
 Here is how much of TeX's memory you used:
- 11639 strings out of 493921
- 157074 string characters out of 3150887
+ 11647 strings out of 493921
+ 157147 string characters out of 3150887
  323421 words of memory out of 3000000
- 14636 multiletter control sequences out of 15000+200000
- 44376 words of font info for 75 fonts, out of 3000000 for 9000
+ 14640 multiletter control sequences out of 15000+200000
+ 48546 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,40p,3276b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,17n,40p,3276b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programs/MiKTeX/fonts/enc/dvips/fontname/8r.enc}{D:/Programs/MiKTeX/fonts
 /enc/dvips/cm-super/cm-super-t1.enc}<D:/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><D:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><D:/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><D:/Programs/MiKTeX/f
-onts/type1/public/cm-super/sftt1200.pfb><D:/Programs/MiKTeX/fonts/type1/urw/tim
-es/utmb8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs
-/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Delrapport 2.pdf" (19 pages, 660850 bytes).
+onts/cm/cmex10.pfb><D:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><D:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiK
+TeX/fonts/type1/public/txfonts/rtxmi.pfb><D:/Programs/MiKTeX/fonts/type1/public
+/cm-super/sftt1200.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:
+/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on "Delrapport 2.pdf" (20 pages, 671335 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  302 words of extra memory for PDF output out of 10000 (max. 10000000)
 
