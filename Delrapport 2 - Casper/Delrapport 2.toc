@@ -13,20 +13,20 @@
 \contentsline {subsection}{\numberline {3.3}Specific Use Cases}{8}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Class-diagram}{9}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}BCE-model}{9}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Sequence-diagram}{9}{subsection.3.6}
-\contentsline {section}{\numberline {4}System Design}{10}{section.4}
-\contentsline {subsection}{\numberline {4.1}Current Progress}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Summary}{10}{subsection.4.2}
-\contentsline {section}{\numberline {5}Testing}{10}{section.5}
-\contentsline {subsection}{\numberline {5.1}Search-engine test}{10}{subsection.5.1}
-\contentsline {section}{\numberline {6}Interaction and Design}{11}{section.6}
-\contentsline {subsection}{\numberline {6.1}Design}{11}{subsection.6.1}
-\contentsline {section}{\numberline {7}Internal Cooperation}{13}{section.7}
-\contentsline {subsection}{\numberline {7.1}Summary}{13}{subsection.7.1}
-\contentsline {section}{\numberline {8}Litterature Reviews}{14}{section.8}
-\contentsline {subsection}{\numberline {8.1}Designing for usability - J.D. Gould and C. Lewis}{14}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}A Rational Design Process - David Lorge Parnas and Paul C. Clements}{15}{subsection.8.2}
-\contentsline {section}{\numberline {9}Annexes}{16}{section.9}
-\contentsline {subsection}{\numberline {9.1}Version Control}{16}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Changelog}{16}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Timeline}{16}{subsection.9.3}
+\contentsline {subsection}{\numberline {3.6}Sequence-diagram}{10}{subsection.3.6}
+\contentsline {section}{\numberline {4}System Design}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}Current Progress}{12}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Summary}{12}{subsection.4.2}
+\contentsline {section}{\numberline {5}Testing}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Search-engine test}{12}{subsection.5.1}
+\contentsline {section}{\numberline {6}Interaction and Design}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Design}{13}{subsection.6.1}
+\contentsline {section}{\numberline {7}Internal Cooperation}{15}{section.7}
+\contentsline {subsection}{\numberline {7.1}Summary}{15}{subsection.7.1}
+\contentsline {section}{\numberline {8}Litterature Reviews}{16}{section.8}
+\contentsline {subsection}{\numberline {8.1}Designing for usability - J.D. Gould and C. Lewis}{16}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}A Rational Design Process - David Lorge Parnas and Paul C. Clements}{17}{subsection.8.2}
+\contentsline {section}{\numberline {9}Annexes}{18}{section.9}
+\contentsline {subsection}{\numberline {9.1}Github Log}{18}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Changelog}{19}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Timeline}{19}{subsection.9.3}

@@ -286,9 +286,30 @@ In this use case however, it's evident that in order to update the database, log
 
 \subsection{Class-diagram}
 
+In order to grant an overview of the software-architecture, a class-diagram has been created:
+
+\includegraphics[height=90mm]{ClassDiagram.png}
+
+The class-diagram shows the final product as a webpage offering 2 search-engines; one for basic and one for advanced searching.
+Furthemore, the engines are linked to a database on the back-end, which is editable by administrators (employees), as they have the necessary login credentials. 
+
 \subsection{BCE-model}
 
+\newpage
 \subsection{Sequence-diagram}
+We've already previously established different use cases relating to the project. Through these we can create sequence-diagrams illustrating them:
+
+{\bf Use Case: SearchDatabase}\\
+
+\includegraphics[height=92mm]{UseCase1.png}
+
+{\bf Use Case: AdvancedSearchDatabase}\\
+
+\includegraphics[height=92mm]{UseCase1.png}
+
+{\bf Use Case: UpdateDatabase}\\
+
+\includegraphics[height=92mm]{UseCase1.png}
 
 \newpage
 
@@ -377,9 +398,83 @@ The general idea is to use terms that are clear and easy to understand, using fi
 The key element in our project is the documentation. There is a reason that we need to use more time on the document than on the code itself. The backbone to the whole project is the documentation. We try to implement as many figures as we possibly can. One thing we could work on is not using long phrases and sentences which seems to be a recurring element in our documents. Something we should consider implementing in our work in the future is requirements that are more precise. As of now, we usually decide where we are going whilst working. If we had something to work up to it would make the process much easier, and easier to see how much we actually are missing to reach the requirements. Besides, if the project is to be given to Hamburg, they would surely love to know the requirements for future developers to work and adjust to. We should try doing more rational design, as it would make our work easier in the future.
 \newpage
 \section{Annexes}
-\subsection{Version Control}
+\subsection{Github Log}
+\noindent\makebox[\linewidth]{\rule{16.5cm}{0.4pt}}
+a2f101f (HEAD, origin/master, origin/HEAD, master) Newest version of report 2.\\
+0e78c2f timeline/new changelog\\
+3628967 Reviews\\
+af1ee59 okok\\
+696e499 Added new changelog and code\\
+7757964 Current state of the report.\\
+f7b07df ChangeLog 20-21.04\\
+298c0df cleanUP\\
+5370d72 Mjallo virkelig ny\\
+b0eee35 Mjallo ny\\
+3045fee Mjallo\\
+5726df9 Merge remote-tracking branch 'origin/master'\\
+db797ee Fixed it!\\
+8ee517f try tis\\
+ebe615a Edited the report.\\
+339fa41 Report + Pictures\\
+0d21845 Delrapport 1- rettelse 1\\
+c129a2c Killefilder\\
+b0d9a30 Scheduleplan\\
+c477a2f Skillmatrix\\
+5751436 review of the review\\
+6d0c506 Echo delrapport\\
+0df006f Feedback til Project Echo\\
+f2cdb65 .tex-filer 4 you\\
+783af0a Redone the enviroment\\
+16bfea5 English corrections/changes\\
+5c8451d Changed the name\\
+dd63eb0 Hermaen\\
+6b0723b delrapport 1 assignments\\
+be9faa6 1.6/1.8\\
+0787272 Clean up!\\
+00a6714 delete double\\
+4f6a322 Projekt Etablering\\
+d20a468 Rewrote the description\\
+96050db Statements and Project Agreement Definition\\
+da46259 Hello\\
+4c5850d Initial Software Architecture (updated)\\
+fa8824f Initial Software architecture\\
+906e4ca Initial SPMP\\
+0789c6f Introductory/Problem statement\\
+acb4324 7.1 Deployment Diagram\\
+bfcbd73 sup\\
+9efec63 Revert "HEJ YUNUS"\\
+13eef81 HEJ YUNUS\\
+0851690 Hello Casper\\
+\noindent\makebox[\linewidth]{\rule{16.5cm}{0.4pt}}
+
+The code at this point in time have been developed in cooperation with the entire group through meetings at the school, where we worked on the code on only a single computer. As such, the Github log will not bear trace of editing of the code. The line 696e499 however shows the addition of the beta-version's code to the project's folder.
+
 \subsection{Changelog}
+
+	$$
+	\begin{array}{rrl}
+	\bf{Date} & \bf{Name} & \bf{Change} \\ 
+	20-04-15 & YO/TD/EG/CL & Added~searchfield~and~\text{-}button \\
+	20-04-15 & YO/TD/EG/CL & Added~database~and~entries \\
+	20-04-15 & YO/TD/EG/CL & \vtop{\hbox{\strut \emph{Added~edit~link~(it~is~still~incomplete,~but~it’s~meant~to~be}}\hbox{\strut \emph{the~employee\text{-}access~to~add~new~entries~in~the~database)}}} \\
+	21-04-15 & YO/TD & \vtop{\hbox{\strut \emph{Added~Family\text{-},~Genus\text{-}~and~Species\text{-}names~form~the~database}}\hbox{\strut \emph{to~the~webpage}}} ~\\~
+	21-04-15 & YO/TD & Added~picture~of~the~found~insect(s) \\
+	21-04-15 & TD & Added~CSS\text{-}code~to~improve~look~of~webpage \\
+	21-04-15 & TD & Updated~database~to~contain~actual~insect~entries\\
+	21-04-15 & TD & Added~Order\text{-}name
+	\end{array}
+	$$
 \subsection{Timeline}
+
+	Initial custommer contact - {\bf 12th of March} - The custommer explained the desired functionality for the search-engine and their expectations of the outcome of the project. \\
+	
+	
+	Report 1 - {\bf 21st of March} - The custommer received a copy of our first report, in order for them to view our progress and method of work.
+	The custommer here expressed their desire for a more advanced option of using the search-engine. The exact specifics of what this should contain have not yet been stated, but they said they'd get back to us.
+	They also expressed their desire for a dropdown menu showcasing all the entries in the database, in order to give the visitors a better overview.\\
+	
+	
+	Prototype - {\bf 21st of April} - The custommer was officially shown the prototype of our search-engine, and they approved of its design. They pointed out some modifications that had to be made, most notably the correcting the attributes and wanting a new attribute, order, added. The correct order of attribute entries have now been specified as order, family, genus and species.\\
 
 
 
