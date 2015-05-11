@@ -1,24 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.17)  31 MAR 2015 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.17)  11 MAY 2015 18:15
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **Rapport.tex
-
-("C:\Users\yunus\Documents\GitHub\PROJECT-BEETLE\Delrapport 1 - Casper\Rapport.
-tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(./Rapport.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(c:/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -32,10 +23,10 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.tex" Bootstrap'ing:
-catcodes, docmode, ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrecat.tex"
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyidioms.tex")
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xy.sty
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes,
+docmode, (c:/texlive/2014/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyidioms.tex)
 
  Xy-pic version 3.8.9 <2013/10/06>
  Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
@@ -90,15 +81,15 @@ utility macros; pictures: \xy, positions,
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package: xy 2013/10/06 Xy-pic version 3.8.9
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyall.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyall.tex
  Xy-pic option: All features v.3.8
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.12 curve,
 \crv@cnt@=\count91
 \crvpts@=\toks18
@@ -110,21 +101,21 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  circles,
 \L@=\dimen135
  loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyframe.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyframe.tex
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycmtip.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xycmtip.tex
  Xy-pic option: Computer Modern tip extension v.3.7
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xytips.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xytips.tex
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyline.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyline.tex
  Xy-pic option: Line styles extension v.3.10
 \xylinethick@=\dimen136
  loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrotate.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyrotate.tex
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycolor.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xycolor.tex
  Xy-pic option: Colour extension v.3.11 loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xymatrix.tex
  Xy-pic option: Matrix feature v.3.14
 \Row=\count92
 \Col=\count93
@@ -134,46 +125,46 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 \qcount@@=\count95
 \matrixsize@=\count96
  loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyarrow.tex
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xygraph.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xygraph.tex
  Xy-pic option: Graph feature v.3.11 loaded) loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf.tex"
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf.tex
  Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-co.tex" loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
 Xy-pic pdf driver: `curve' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-cu.tex" loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
 Xy-pic pdf driver: `frame' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-fr.tex" loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
 Xy-pic pdf driver: `line' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-li.tex" loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
 Xy-pic pdf driver: `rotate' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-ro.tex" loaded) loaded))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded) loaded))
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(c:/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count97
@@ -181,27 +172,27 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen137
 \Gin@req@width=\dimen138
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(c:/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+(c:/texlive/2014/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -350,8 +341,8 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(c:/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -381,8 +372,8 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+(c:/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -405,7 +396,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks24
 \symAMSa=\mathgroup4
@@ -413,24 +404,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks25
 \ex@=\dimen139
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen140
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count98
@@ -471,47 +462,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\eucal.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/eucal.sty
 Package: eucal 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(c:/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\danish.ldf"
+(c:/texlive/2014/texmf-dist/tex/generic/babel-danish/danish.ldf
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(c:/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count110
 \U@D=\dimen148
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
-Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+(c:/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \@enLab=\toks30
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -541,7 +526,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -549,27 +534,27 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(c:/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen149
 \Hy@linkcounter=\count111
 \Hy@pagecounter=\count112
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count113
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -581,7 +566,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count114
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -606,19 +591,19 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count119
 \c@bookmark@seq@number=\count120
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -654,25 +639,25 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen153
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 137.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+(c:/texlive/2014/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+(c:/texlive/2014/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen154
 \extrarowheight=\dimen155
 \NC@list=\toks31
@@ -687,15 +672,15 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count121
 \TX@ftn=\toks32
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks33
 \minrowclearance=\skip49
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -710,7 +695,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count122
 \lst@gtempboxa=\box32
 \lst@token=\toks34
@@ -724,18 +709,18 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 \lst@lineno=\count127
 \lst@maxwidth=\dimen164
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count128
 \lst@skipnumbers=\count129
 \lst@framebox=\box33
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(c:/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(c:/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 \symusualmathcal=\mathgroup8
@@ -795,9 +780,9 @@ LaTeX Font Info:    Redeclaring math symbol \upUpsilon on input line 107.
 LaTeX Font Info:    Redeclaring math symbol \upPhi on input line 108.
 LaTeX Font Info:    Redeclaring math symbol \upPsi on input line 109.
 LaTeX Font Info:    Redeclaring math symbol \upOmega on input line 110.
+ (./Rapport.aux)
+\openout1 = `Rapport.aux'.
 
-("C:\Users\yunus\Documents\GitHub\PROJECT-BEETLE\Delrapport 1 - Casper\Rapport.
-aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
@@ -813,47 +798,48 @@ LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 115.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
 5.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 115
 .
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
 5.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
 5.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 115.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 115.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -864,7 +850,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 Package xypdf Info: Line width: 0.47987pt on input line 115.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count130
 \scratchdimen=\dimen165
@@ -877,13 +863,28 @@ Package xypdf Info: Line width: 0.47987pt on input line 115.
 \MPnumerator=\count134
 \makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks36
+) (c:/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \AtBeginShipoutBox=\box35
 Package hyperref Info: Link coloring OFF on input line 115.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count136
@@ -892,35 +893,58 @@ LaTeX Info: Redefining \ref on input line 115.
 LaTeX Info: Redefining \pageref on input line 115.
 LaTeX Info: Redefining \nameref on input line 115.
 
-("C:\Users\yunus\Documents\GitHub\PROJECT-BEETLE\Delrapport 1 - Casper\Rapport.
-out")
-("C:\Users\yunus\Documents\GitHub\PROJECT-BEETLE\Delrapport 1 - Casper\Rapport.
-out")
+(./Rapport.out) (./Rapport.out)
 \@outlinefile=\write4
+\openout4 = `Rapport.out'.
+
 \c@lstlisting=\count137
- <KULogo.pdf, id=27, 146.5475pt x 202.7575pt>
+ <KULogo.pdf, id=28, 146.5475pt x 202.7575pt>
 File: KULogo.pdf Graphic file (type pdf)
- <use KULogo.pdf>
+
+<use KULogo.pdf>
 Package pdftex.def Info: KULogo.pdf used on input line 118.
 (pdftex.def)             Requested size: 102.82626pt x 142.26378pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 123.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 136.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 136.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/yunus/Documents/
-GitHub/PROJECT-BEETLE/Delrapport 1 - Casper/KULogo.pdf>]
+{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./KULogo.pdf>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 137.
-
-("C:\Users\yunus\Documents\GitHub\PROJECT-BEETLE\Delrapport 1 - Casper\Rapport.
-toc"
+ (./Rapport.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write5
+\openout5 = `Rapport.toc'.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 139.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 139.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 139.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 139.
  [2]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 140.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 140.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 149.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 149.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 149.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -934,7 +958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--154
 
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 155.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
@@ -944,12 +968,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 163.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 163.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 163.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 163.
 [3]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 165.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 165.
+
 Underfull \hbox (badness 10000) in paragraph at lines 166--171
 
  []
 
-<Skillmatrix.png, id=57, 1097.60063pt x 231.86626pt>
+<Skillmatrix.png, id=58, 1097.60063pt x 231.86626pt>
 File: Skillmatrix.png Graphic file (type png)
  <use Skillmatrix.png>
 Package pdftex.def Info: Skillmatrix.png used on input line 176.
@@ -969,38 +1006,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--186
 
  []
 
-[4 <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Delrapport 1 - Casper/Skillm
-atrix.png>] <WorkBreakdownStructure.png, id=66, 506.6428pt x 640.64343pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 187.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 187.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 187.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 187.
+[4 <./Skillmatrix.png>]
+<WorkBreakdownStructure.png, id=67, 506.6428pt x 640.64343pt>
 File: WorkBreakdownStructure.png Graphic file (type png)
 
 <use WorkBreakdownStructure.png>
 Package pdftex.def Info: WorkBreakdownStructure.png used on input line 190.
 (pdftex.def)             Requested size: 225.01855pt x 284.52756pt.
- [5 <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Delrapport 1 - Casper/WorkB
-reakdownStructure.png>]
-<Scheduling.png, id=74, 756.57657pt x 185.94469pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 204.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 204.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 204.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 204.
+ [5 <./WorkBreakdownStructure.png>]
+<Scheduling.png, id=75, 756.57657pt x 185.94469pt>
 File: Scheduling.png Graphic file (type png)
  <use Scheduling.png>
 Package pdftex.def Info: Scheduling.png used on input line 209.
 (pdftex.def)             Requested size: 463.09262pt x 113.81102pt.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 213.
 
-<SoftwareArchitecture.png, id=75, 488.57532pt x 519.44063pt>
+<SoftwareArchitecture.png, id=76, 488.57532pt x 519.44063pt>
 File: SoftwareArchitecture.png Graphic file (type png)
 
 <use SoftwareArchitecture.png>
 Package pdftex.def Info: SoftwareArchitecture.png used on input line 217.
 (pdftex.def)             Requested size: 267.62137pt x 284.52756pt.
- [6 <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Delrapport 1 - Casper/Sched
-uling.png> <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Delrapport 1 - Caspe
-r/SoftwareArchitecture.png>]
-<CaseDiagram.png, id=83, 680.5425pt x 348.55219pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 223.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 223.
+ [6 <./Scheduling.png> <./SoftwareArchitecture.png>] <CaseDiagram.png, id=84, 6
+80.5425pt x 348.55219pt>
 File: CaseDiagram.png Graphic file (type png)
  <use CaseDiagram.png>
 Package pdftex.def Info: CaseDiagram.png used on input line 227.
 (pdftex.def)             Requested size: 388.87898pt x 199.16928pt.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 233.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 233.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 233.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 233.
 
-[7 <C:/Users/yunus/Documents/GitHub/PROJECT-BEETLE/Delrapport 1 - Casper/CaseDi
-agram.png>]
+[7 <./CaseDiagram.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 234.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 234.
+
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
@@ -1030,35 +1104,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--251
 
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 256.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 256.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 256.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 256.
 [8]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 257.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 257.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 264.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 264.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 264.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 264.
  [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
-
-("C:\Users\yunus\Documents\GitHub\PROJECT-BEETLE\Delrapport 1 - Casper\Rapport.
-aux")
+ (./Rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
-Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 3F71BEDE3F5E3BF14C07CEF01F1F2C74;432.
+
+
+Package rerunfilecheck Warning: File `Rapport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Rapport.out':
+(rerunfilecheck)             Before: 3F71BEDE3F5E3BF14C07CEF01F1F2C74;432
+(rerunfilecheck)             After:  F80CFF7972499D82161876E10DBEDD03;426.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 11635 strings out of 493921
- 157821 string characters out of 3147281
- 319636 words of memory out of 3000000
- 14663 multiletter control sequences out of 15000+200000
- 56793 words of font info for 100 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 34i,8n,40p,3271b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
-/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rapport.pdf (9 pages, 245510 bytes).
+ 11849 strings out of 493109
+ 160382 string characters out of 6138586
+ 327773 words of memory out of 5000000
+ 15038 multiletter control sequences out of 15000+600000
+ 56793 words of font info for 100 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,8n,40p,3271b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb><c:/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rapport.pdf (9 pages, 233137 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
