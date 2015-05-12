@@ -19,6 +19,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsfonts,amsmath,amssymb}
 \usepackage{eucal}
+\usepackage[danish]{babel}
 \usepackage{enumerate}  
 \usepackage{hyperref}
 \usepackage{url}
@@ -30,7 +31,6 @@
 \usepackage{color}
 \usepackage{amsmath}
 \usepackage{xcolor}
-\usepackage{fancyhdr}
 
 \definecolor{KU-red}{RGB}{144,26,30} 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
@@ -113,19 +113,16 @@
 \newcommand{\hhurl}[1]{{\color{blue}\url{#1}}}
 
 \begin{document}
-	$$
-	\begin{array}{lrl}
-		\bf{Date} & \bf{Name} & \bf{Change} \\ 
-		20-04-15 & YO/TD/EG/CL & Added~seachfield~and~\text{-}button \\
-		20-04-15 & YO/TD/EG/CL & Added~database~and~entries \\
-		20-04-15 & YO/TD/EG/CL & \vtop{\hbox{\strut \emph{Added~edit\-link}}} \\
-		21-04-15 & YO/TD & \vtop{\hbox{\strut \emph{Added~Family\text{-},~Genus\text{-}~and~Species\text{-}names~form~the~database}}\hbox{\strut \emph{to~the~webpage}}} ~\\~
-		21-04-15 & YO/TD & Added~picture~of~the~found~insect(s) \\
-		21-04-15 & TD & Added~CSS\text{-}code~to~shine~the~webpage~a~bit~up \\
-		21-04-15 & TD & Updated~the~database,~so~it~actually~shows~an~actual~insect\\
-		21-04-15 & TD & Added~Order\text{-}name\\
 
-
-	\end{array}
-	$$
+{\huge{Bilag til 5. Testing}}\\\\
+Test plan: \\
+We want to test the general functionality of our product. The searchfunction is the most important part of the product, followed by the option to add an entry to the database. When those two functions work we can add more functions to the product, like the advanced search and the deletion of an entry in the database.\\\\
+Test specification:\\
+It should not be hard to test these functions, because we easyly can test if the search gives the right output. The add and delete functionality should also be easy to test, because of its easy useability.\\
+Testing the search could happen with the mentioned words and letters form section 5. Also we need to test the add entry and delete entry. Here we create a new entry, fitting to a Zoomify-image, and see if it works as intended. After that we could delete that entry again.\\\\
+Test incident report:\\
+Right now is there one bug in the code: If you login and logout, and go back in the browser you will go back to the edit page. Some could argue, that it is not that bad, because of the user has been logged in before already, but its still a bug that has to be fixed.\\\\
+Test summary report:\\
+We have tested our product a lot. But there is not much to test; a searchfield, an advanced-search, an add entry function and a delete entry function. Maybe you could count the add Zoomify-image in too, but we count it under the add function.\\
+Until now did all tests work out fine. We could use the searches and get a working result. We could add and delete entries. And we could also add a new Zoomify-image-folder to the server.
 \end{document}

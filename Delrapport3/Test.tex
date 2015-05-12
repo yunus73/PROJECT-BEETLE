@@ -19,6 +19,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsfonts,amsmath,amssymb}
 \usepackage{eucal}
+\usepackage[danish]{babel}
 \usepackage{enumerate}  
 \usepackage{hyperref}
 \usepackage{url}
@@ -30,7 +31,6 @@
 \usepackage{color}
 \usepackage{amsmath}
 \usepackage{xcolor}
-\usepackage{fancyhdr}
 
 \definecolor{KU-red}{RGB}{144,26,30} 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
@@ -113,19 +113,26 @@
 \newcommand{\hhurl}[1]{{\color{blue}\url{#1}}}
 
 \begin{document}
-	$$
-	\begin{array}{lrl}
-		\bf{Date} & \bf{Name} & \bf{Change} \\ 
-		20-04-15 & YO/TD/EG/CL & Added~seachfield~and~\text{-}button \\
-		20-04-15 & YO/TD/EG/CL & Added~database~and~entries \\
-		20-04-15 & YO/TD/EG/CL & \vtop{\hbox{\strut \emph{Added~edit\-link}}} \\
-		21-04-15 & YO/TD & \vtop{\hbox{\strut \emph{Added~Family\text{-},~Genus\text{-}~and~Species\text{-}names~form~the~database}}\hbox{\strut \emph{to~the~webpage}}} ~\\~
-		21-04-15 & YO/TD & Added~picture~of~the~found~insect(s) \\
-		21-04-15 & TD & Added~CSS\text{-}code~to~shine~the~webpage~a~bit~up \\
-		21-04-15 & TD & Updated~the~database,~so~it~actually~shows~an~actual~insect\\
-		21-04-15 & TD & Added~Order\text{-}name\\
 
+{\huge{5. Testing}} \\
+The testing worked out fine until now. But we did run into some trubles during our work on the project. For example did it require some testing until the zoomify-images worked correctly and it did also take some time until the advanced search worked as intended. \\
+Mostly the testing has been used to help us code the website, so it works in the right way. And thats also why the website works well right now. There ist one case though, that dont work right now, which happens if a user is logged into the website and clicks on the logout link and after that goes one site back in the browser, the edit website will show again. This is a smal truble we still have to fix.
 
-	\end{array}
-	$$
+Search-able words in the "normal" search.
+\begin{itemize}
+	\item testFamily
+	\item Sterrha
+	\item Eilicrinia
+\end{itemize}
+
+Search-able words in the advanced search is a bit more complicated, but here are some lettes, that could help testing the advanced search.\\\\
+$
+\begin{array}{c|c|c}
+	Order & Contains & stOr \\ 
+	Family & Starts with & test \\ 
+	Genus & Ends with & rha \\ 
+	Species & Contains & cord
+\end{array}
+$
+
 \end{document}
