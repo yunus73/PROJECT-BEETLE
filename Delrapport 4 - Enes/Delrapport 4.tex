@@ -301,11 +301,11 @@ In order to grant an overview of the software-architecture, a class-diagram has 
 
 \includegraphics[height=110mm]{ClassDiagram.png}
 
-Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up Description coming up 
+The class diagram shows the elements of our website and how they are connected. Our Webpage has two search engines, one for simple search statements, and for a more advanced approach an advanced search. These two can be used by an anonymous visitor, but in addition the admin is using the same search engine in his control panel. The search engines are connected to a database which holds all the entities, can create, edit or remove entries in the database, hence the pictures that pop up when searched for. The database can't do these things by itself, that is why we have made a control panel in which the admin can change the entries, but the admin can also add guest users to the system. Since our project revolves around special butterflies and insects, our goal is to preserve the nature by not giving out details to anyone. Some of the insects are indangered, meaning that the university now have the opportunity to permit certain users access, by creating a temporary user for them in the control panel. These users can only be added or deleted. The admin is connected to all of this, and as we stated earlier the admin takes use of the search engine to make it easier for himself to check for a specific species, subspecies or genus. Instead of looking through of a list a maybe 100 entries, he can search for the specific genus he wishes to look for. In order to make as many entries available for the public, we have added a box which the owners can tick, and telling the database that it can only be accessed by a temporary user created in the system. In our class diagram we have stated this special incident as being a parametre for the temporary users: "Display Location".
 \newpage
-\subsection{BCE-model}
+\subsection{BCE}
 
-To provide an easy reference-point for the different objects in our product and their respective responsibilities, a BCE-model has been created to effectively sort those objects into their representative categories.
+To provide an easy reference-point for the different objects in our product and their respective responsibilities, a BCE has been created to effectively sort those objects into their representative categories.
 
 \begin{gather*}
 \begin{bmatrix}
@@ -320,7 +320,8 @@ Background&TempUserAdvSearch\\
 \end{gather*}\\
 \textbf{Boundary:}\\
 
-Everything a user can see is a boundary object. In our case the buttons, search, advanced-search and edit, although also the text fields, the headline and the grey background.\\
+Everything a user can see is a boundary object. In our case the buttons, also the text fields, the headline and the grey background.\\
+
 
 \textbf{Entity:}\\
 
@@ -329,27 +330,31 @@ The entities here are all the information from the database, as well as the imag
 \textbf{Control:}\\
 
 The search-button grabs the text input into the search-field and matches the term against the database.
-The advanced search-button is similar except that it has 4 fields in which a user can match a term against specific attributes. 
-Clicking on an image will take the user to a full-scale version of the image clicked.
+The advanced search-button is similar except that it has 4 fields in which a user can match a term against specific attributes. \\
+Clicking on an image will take the user to a full-scale version of the image clicked.\\
 Finally we have the edit button that allows an employee to change the entries in the database, or add/remove entries.
-These are all control objects as they control one or more parts of the website's functionality.
-
+These are all control objects as they control one or more parts of the website's functionality.\\
+In some cases when the user is allowed additional access through having a username and password, the user can then view the TempUserSearch and TempUserAdvSearch, which allow them to see the endangered objects.
 
 \newpage
 \subsection{Sequence-diagram}
 We've already previously established different use cases relating to the project. Through these we can create sequence-diagrams illustrating them:
+\\
 
 {\bf Use Case: SearchDatabase}\\
 
 \includegraphics[height=92mm]{Sequence1.pdf}
 
-{\bf Use Case: AdvancedSearchDatabase}\\
+{\bf Use Case: ManageTempUsers}\\
 
-\includegraphics[height=92mm]{Sequence2.pdf}
+\includegraphics[height=86mm]{Sequence2.jpg}
+The idea is that this sequence diagram works with the recently added tempuser. The admin enters the searchengine, where he enters the controlPanel. He can add the name, password and in the end the temporary user to the database. The admin is then informed of the newly added user, which he then can handover to the temporary user.\\
+The admin can then later mark the created temporary user, and delete it. 
+\\
 
-{\bf Use Case: UpdateDatabase}\\
+{\bf Use Case: EditDatabase}\\
 
-\includegraphics[height=92mm]{Sequence3.pdf}
+\includegraphics[height=92mm]{Sequence3.jpg}
 
 \newpage
 
@@ -455,20 +460,15 @@ The result is, that all their requests have been met satisfactorily, and that we
 
 \newpage
 \section{Litterature Reviews}
-\subsection{Designing for usability - J.D. Gould and C. Lewis}
-The text is based on the premise of three simple principles: Early focus on users, emphirical measurement and iterative design. The text is about system designs and how in the modern day everyone finds change very drastic. The designers and developers' jobs are to make everything easily accessible, and to create the system as something which can turn into a successor to old habits. \\
-The fact that the article is from 1985 would in some people's minds be a signal of distress as the paper is 30 years old. What could designers 30 years ago possibly know about designing systems that we don't today? Especially considering the technology we work with? Well to our surprise the paper was very valid, even today. The principles which the paper state are things people may feel are intuitive and obvious. Even we thought so. But either way it is not to be forgotten that when you begin designing, you need to familiarise yourself with the potential users. The developer needs to think as a user and not as a developer. Creating something that seems easy for you might not seem as easy for others. The paper also emphasises the use of emphirical measurements. Developers tend to forget the purpose of testing publicly. Every type of person should be involved in the testing because of the fact that not all people may find using the given system easy. Presenting the system for new users/testers should also be done in such a manner that normal citizens can relate to why the system provides improvements. It is naive to only look at it in a rational matter, because doing so doesn't involve users at all. It is after all the users who are going to be using it. One cannot say that the users don't know what they want, they just need help understanding it. Why should the school system in Denmark start using programs like TI-Nspire and Maple, when a calculator and paper has worked for centuries? The argumentation and advantages need to be pointed out. Another good point the paper mentions is promises. Promising voice recognition and touch screen doesn't exactly mean that the device/system will be good quality. The design must be iterative, there is no advantage in locking the design at one state - it is only stubborn. Everything can be improved.
-The paper, in short terms, focuses on the involvement of users and how the developers can involve more people. Changing habits is hard, but that doesn't mean it is impossible. 
+\subsection{Programming as theory building - Peter Naur}
+In 1985 Peter Naur gave a brilliant example on how programming and software research should be approached. The general idea is that programmming is theory. This theory is the backbone of all future programs. The point is not to code something specific, the code is not the important thing. Code changes because of demands, optimization etc. It might be the best way to code for 10 years, but after that who knows? Peter Naur said in his abstract that \textit{"(...) it is concluded that the proper, primary aim of programming is, not to produce programs, but to have the programmers build theories of the manner in which the problems at hand are solved by program execution."} \\
+The real goal of the software development crew, is not to code something, but to understand the concept behind it. Understanding it rather than just coding something that works makes it easier to solve and develop new solutions. If a theory around your software is created it will make optimization, expansion or modifications easier. Peter Naur even claims that code standing by itself is dead, even though it may be useful for some situations. One quote specifically explains the point of programming:\\ \textit{"Revival of a program is the rebuilding of its theory by a new programmer team"}.\\
+Naur also says that documentation is not an appropriate mechanism to transmit knowledge in software projects. In general the idea is that Peter Naur believes that software development isn't about developing software, but more about developing a shared understanding of the software development.
 \\
-\\
-This paper is relatable to our own project involving the University of Hamburg and their desire for a search-engine. Our approach so far hasn't really followed the principles to the fullest, but since we are so early in the developing process it doesn't matter that much as of yet. What we have done, is kept a constant contact with our client. After every session we ask the owner how he feels about our work. Our intended way of working is using the AGIL project management, where we make sure to be open to ideas, and try to implement the ideas the client asks for. What we maybe should consider is asking other users, since the owner might feel like it's a good idea, but his customers/users might not feel the same way. Even though we're only making a search-engine, which should be straight forward, we can't work with the premise that people can't have issues at this early stage. We certainly need to remember testing it with users of all sorts, going forward. User involvement is something we need to try and implement future work.
+What we can take with us in our project is that we need to understand what we are doing. We need to think about all the modifications, optimizations and requests that the owner might call for. That is why we simply cannot write some code that works, but we don't understand the principle behind it. We need to have a backbone, something we can lean on when we the need for modifications hits us. Since our project was fairly simple we automatically counted in the need for future development, making it easy to expand. But this is not mostly due to our work, but because the project doesn't have many strings to play on. It's a search engine, that works with a specific algorithm that retrieves elements from a database. The idea here is pretty simple, and so is the theory behind it. One thing we can consider is not analyzing what a program is doing, we should analyze how does it take part and affect in the environment it is executed. How the users feel, how different systems work with it. Programming is about working in teams, and in order for a team to work together, all must understand the same theory behind the project.
+
 \newpage
-\subsection{A Rational Design Process - David Lorge Parnas and Paul C. Clements}
-This text is about a rational approach to designing a system. The idea is that you can't achieve one perfect result, but that you can fake it. Faking isn't seen as a bad thing in this situation. The idea is to do a lot of background work before the project coding commences. Today many coders usually utilise a "stream of consciousness" in which they realise an idea. The idea is then executed in a "stream of execution". In general this is a bad approach because the amount of time it would take to reach a result would be too long. That is why the paper recommends first making a requirements page in which you state what you, as a developer, can do and what the software has to include according to the customer. For instance which operating system the software has to work. Timing and accuracy constraints also help the developer set realistic goals and meet expectations. A probably worthwhile addition to a requirements document would also be changes likely to come up. This would not only make it easier for the developer long term, but also for newcomers who wish to improve the software. Another thing this paper urges new developers to do is to make sure documentation is proper and every step is documented. The paper urges developers to not have poor organisation, avoid "stream of consciousness” and not write excessive amounts of text when a shorter or more efficient paragraph could be used in place. Using confusing terminology should also be avoided - it is important to remember that even though you have lived inside this software for months, newcomers will be face-to-face with the software on a first time basis and not possess the knowledge you do. The small details are not as important as one would think - the bigger picture is considered more important.
-The general idea is to use terms that are clear and easy to understand, using figures and expressions to make it all easier for newcomers to take in. The final document is not meant to be relaxing to read, but interesting. It should reward the reader with precise and detailed information.
-\\
-\\
-The key element in our project is the documentation. There is a reason that we need to use more time on the document than on the code itself. The backbone to the whole project is the documentation. We try to implement as many figures as we possibly can. One thing we could work on is not using long phrases and sentences which seems to be a recurring element in our documents. Something we should consider implementing in our work in the future is requirements that are more precise. As of now, we usually decide where we are going whilst working. If we had something to work up to it would make the process much easier, and easier to see how much we actually are missing to reach the requirements. Besides, if the project is to be given to Hamburg, they would surely love to know the requirements for future developers to work and adjust to. We should try doing more rational design, as it would make our work easier in the future.
+
 \newpage
 \section{Annexes}
 
