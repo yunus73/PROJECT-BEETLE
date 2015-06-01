@@ -1,0 +1,125 @@
+\documentclass[12pt,a4paper]{article}
+
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{240mm}
+\setlength{\parindent}{0mm}%~S{\aa}~meget~rykkes~ind~efter~afsnit
+\setlength{\parskip}{\parsep}
+\setlength{\headheight}{0mm}
+\setlength{\headsep}{0mm}
+\setlength{\hoffset}{-2.5mm}
+\setlength{\voffset}{0mm}
+\setlength{\footskip}{15mm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\topmargin}{0mm}
+\setlength{\evensidemargin}{0mm}
+
+\usepackage[all]{xy}
+\usepackage{graphicx}%~For~grafik~(billederfiler)
+\usepackage[T1]{fontenc}%~For~at~blande~\textsc{}~med~\textbf{}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{eucal}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{mathptmx}
+\usepackage{multirow}
+\usepackage[dvipsnames,usenames]{color}
+\usepackage{tabularx,colortbl,xcolor}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+\definecolor{KU-red}{RGB}{144,26,30}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\DeclareSymbolFont{usualmathcal}{OMS}{cmsy}{m}{n}
+\DeclareSymbolFontAlphabet{\mathcal}{usualmathcal}
+\DeclareSymbolFont{letters}{OML}{txmi}{m}{it}
+
+\DeclareMathSymbol{\alpha}{\mathord}{letters}{"0B}
+\DeclareMathSymbol{\beta}{\mathord}{letters}{"0C}
+\DeclareMathSymbol{\gamma}{\mathord}{letters}{"0D}
+\DeclareMathSymbol{\delta}{\mathord}{letters}{"0E}
+\DeclareMathSymbol{\epsilon}{\mathord}{letters}{"0F}
+\DeclareMathSymbol{\zeta}{\mathord}{letters}{"10}
+\DeclareMathSymbol{\eta}{\mathord}{letters}{"11}
+\DeclareMathSymbol{\theta}{\mathord}{letters}{"12}
+\DeclareMathSymbol{\iota}{\mathord}{letters}{"13}
+\DeclareMathSymbol{\kappa}{\mathord}{letters}{"14}
+\DeclareMathSymbol{\lambda}{\mathord}{letters}{"15}
+\DeclareMathSymbol{\mu}{\mathord}{letters}{"16}
+\DeclareMathSymbol{\nu}{\mathord}{letters}{"17}
+\DeclareMathSymbol{\xi}{\mathord}{letters}{"18}
+\DeclareMathSymbol{\pi}{\mathord}{letters}{"19}
+\DeclareMathSymbol{\rho}{\mathord}{letters}{"1A}
+\DeclareMathSymbol{\sigma}{\mathord}{letters}{"1B}
+\DeclareMathSymbol{\tau}{\mathord}{letters}{"1C}
+\DeclareMathSymbol{\upsilon}{\mathord}{letters}{"1D}
+\DeclareMathSymbol{\phi}{\mathord}{letters}{"1E}
+\DeclareMathSymbol{\chi}{\mathord}{letters}{"1F}
+\DeclareMathSymbol{\psi}{\mathord}{letters}{"20}
+\DeclareMathSymbol{\omega}{\mathord}{letters}{"21}
+\DeclareMathSymbol{\varepsilon}{\mathord}{letters}{"22}
+\DeclareMathSymbol{\vartheta}{\mathord}{letters}{"23}
+\DeclareMathSymbol{\varpi}{\mathord}{letters}{"24}
+\DeclareMathSymbol{\varrho}{\mathord}{letters}{"25}
+\DeclareMathSymbol{\varsigma}{\mathord}{letters}{"26}
+\DeclareMathSymbol{\varphi}{\mathord}{letters}{"27}
+\DeclareMathSymbol{\Gamma}{\mathord}{letters}{"00}
+\DeclareMathSymbol{\Delta}{\mathord}{letters}{"01}
+\DeclareMathSymbol{\Theta}{\mathord}{letters}{"02}
+\DeclareMathSymbol{\Lambda}{\mathord}{letters}{"03}
+\DeclareMathSymbol{\Xi}{\mathord}{letters}{"04}
+\DeclareMathSymbol{\Pi}{\mathord}{letters}{"05}
+\DeclareMathSymbol{\Sigma}{\mathord}{letters}{"06}
+\DeclareMathSymbol{\Upsilon}{\mathord}{letters}{"07}
+\DeclareMathSymbol{\Phi}{\mathord}{letters}{"08}
+\DeclareMathSymbol{\Psi}{\mathord}{letters}{"09}
+\DeclareMathSymbol{\Omega}{\mathord}{letters}{"0A}
+\DeclareMathSymbol{\upGamma}{\mathalpha}{operators}{"00}
+\DeclareMathSymbol{\upDelta}{\mathalpha}{operators}{"01}
+\DeclareMathSymbol{\upTheta}{\mathalpha}{operators}{"02}
+\DeclareMathSymbol{\upLambda}{\mathalpha}{operators}{"03}
+\DeclareMathSymbol{\upXi}{\mathalpha}{operators}{"04}
+\DeclareMathSymbol{\upPi}{\mathalpha}{operators}{"05}
+\DeclareMathSymbol{\upSigma}{\mathalpha}{operators}{"06}
+\DeclareMathSymbol{\upUpsilon}{\mathalpha}{operators}{"07}
+\DeclareMathSymbol{\upPhi}{\mathalpha}{operators}{"08}
+\DeclareMathSymbol{\upPsi}{\mathalpha}{operators}{"09}
+\DeclareMathSymbol{\upOmega}{\mathalpha}{operators}{"0A}
+
+\newcommand{\hhemail}[1]{\textsf{#1}}
+\newcommand{\hhurl}[1]{{\color{blue}\url{#1}}}
+
+\begin{document}
+	$$
+	\begin{array}{lrl}
+		\bf{Date}~&~\bf{Name}~&~\bf{Change}~\\~
+		20-04-15~&~YO/TD/EG/CL~&~Added~seachfield~and~\text{-}button~\\
+		20-04-15~&~YO/TD/EG/CL~&~Added~database~and~entries~\\
+		20-04-15~&~YO/TD/EG/CL~&~\vtop{\hbox{\strut~\emph{Added~edit\-link}}}~\\
+		21-04-15~&~YO/TD~&~\vtop{\hbox{\strut~\emph{Added~Family\text{-},~Genus\text{-}~and~Species\text{-}names~form~the~database}}\hbox{\strut~\emph{to~the~webpage}}}~~\\~
+		21-04-15~&~YO/TD~&~Added~picture~of~the~found~insect(s)~\\
+		21-04-15~&~TD~&~Added~CSS\text{-}code~to~shine~the~webpage~a~bit~up~\\
+		21-04-15~&~TD~&~Updated~the~database,~so~it~actually~shows~an~actual~insect\\
+		21-04-15~&~TD~&~Added~Order\text{-}name\\
+		01-05-15~&~TD~&~Added~Zoomify~pictures~and~the~description~of~the~insect\\
+		01-05-15~&~YO~&~Added~login\\
+		11-05-15~&~TD/CL~&~\vtop{\hbox{\strut~\emph{	Added~option,~for~an~employee,~to~add~a~new~entry~into~}}\hbox{\strut~\emph{the~database}}}~\\
+		11-05-15~&~TD/CL~&~\vtop{\hbox{\strut~\emph{	Added~option,~for~an~employee,~to~delete~an~old~entry~from}}\hbox{\strut~\emph{the~database}}}~\\
+		11-05-15~&~CL~&~\vtop{\hbox{\strut~\emph{	Added~feature,~that~displays~all~entries,~when~the~search\text{-}}}\hbox{\strut~\emph{~field~is~blank}}}\\
+		11-05-15~&~YO/EG~&~Added~functionality~for~the~advanced~search\\
+		01-06-15~&~YO~&~Fixed~issue~with~cookies/cache~\\~
+		01-06-15~&~YO/EG~&~Added~temporary-login~\\~
+		01-06-15~&~YO~&~Fixed~the~temporary-login~so~i~works~as~intended~\\~
+		01-06-15~&~TD/EG~&~Edited~editpage,~so~the~admin~can~add~new~temporary~users~\\~
+		01-06-15~&~TD~&~Edited~editpage,~so~the~admin~can~mark~an~entry~as~hidden~\\~
+		01-06-15~&~TD~&\vtop{\hbox{\strut~\emph{	~Edited~editpage,~so~the~admin~can~look~up~entries,~to~make~it~}}\hbox{\strut~\emph{easier~to~delete~entries}}}
+	\end{array}
+	$$
+\end{document}
