@@ -410,26 +410,13 @@ More in-depth descriptions of the various conducted tests are available as annex
 
 In order to showcase the unit-interface of the product, a series of screenshots have been provided.
 
-\includegraphics[height=45mm]{Beetle1.png}\\
-Above is the frontpage of the website before any interaction has been done.\\
-\includegraphics[height=100mm]{Beetle2.png}\\
-Blank-search to display all entries.\\
-\includegraphics[height=45mm]{Beetle3.png}\\
-No matching entries.\\
-\includegraphics[height=70mm]{Beetle4.png}\\
-Matching entry (entries).\\
-\includegraphics[height=33mm]{Beetle5.png}\\
-The advanced search-engine.\\
-\includegraphics[height=45mm]{Beetle6.png}\\
-No matching entries.\\
-\includegraphics[height=90mm]{Beetle7.png}\\
-Matching entry (entries).\\
-\includegraphics[height=60mm]{Beetle8.png}\\
-Login function.\\
-\includegraphics[height=60mm]{Beetle9.png}\\
-Unsuccesful login.\\
-\includegraphics[height=100mm]{Beetle10.png}\\
-Editing page displayed after succesful login.\\
+\includegraphics[height=205mm]{UI1.pdf}
+\newpage
+\includegraphics[height=225mm]{UI2.pdf}
+\newpage
+\includegraphics[height=225mm]{UI3.pdf}
+
+
 \newpage
 
 \section{Internal Cooperation}
@@ -466,6 +453,13 @@ The real goal of the software development crew, is not to code something, but to
 Naur also says that documentation is not an appropriate mechanism to transmit knowledge in software projects. In general the idea is that Peter Naur believes that software development isn't about developing software, but more about developing a shared understanding of the software development.
 \\
 What we can take with us in our project is that we need to understand what we are doing. We need to think about all the modifications, optimizations and requests that the owner might call for. That is why we simply cannot write some code that works, but we don't understand the principle behind it. We need to have a backbone, something we can lean on when we the need for modifications hits us. Since our project was fairly simple we automatically counted in the need for future development, making it easy to expand. But this is not mostly due to our work, but because the project doesn't have many strings to play on. It's a search engine, that works with a specific algorithm that retrieves elements from a database. The idea here is pretty simple, and so is the theory behind it. One thing we can consider is not analyzing what a program is doing, we should analyze how does it take part and affect in the environment it is executed. How the users feel, how different systems work with it. Programming is about working in teams, and in order for a team to work together, all must understand the same theory behind the project.
+\newpage
+\subsection{XP - Highsmith}
+The article is about a style of programming some parts of the community uses. It is called extreme programming and it is a discipline of development bases on simplicity, communication, feedback, courage and respect. The whole team/crew is brought together to do simple tasks, where the feedback is thorough enought to enable the team to see where they are at a current state but also to pinpoint the practices to be able to solve their task. XP is about planning and tracking what to should be done next and to predict the deadline of the project, hence when the project will be finished. The idea is that the extremoes focus on the business that hires them, making sure that they release small portions every now and then, which pass all the tests and demands the customer has defined. This is achieved in pair programming, or in larger groups, with a fairly simple design, and code next to perfect. The group or pair then continuosly work on improving this design and code, just enough to match their current needs or the customers needs. The system never stops running, it is integrated all the time. All the code for production is written in pairs, meaning that the pair / group always work together. They code in a style everyone can understand and improve as they move forward. This makes so that the team has the responsibility for all the code, since the pattern makes so that everyone can understand everyone's code. The group has a common view on how the system looks like, and everyone makes sure they work in a pace which they can sustain for longer periods of work. \\
+XP Programmers make sure that they continuosly test their project with their customers. They always want to have a visual software, which is given to the customer in the end of every iteration of work. Besides the XP programmers release frequently. \\
+One thing we will close this article off with is the use of pair programming. The idea that two people sit side by side all the time, coding and working on the same computer all day every day. The idea comes from studies showing that pairing produces better code in about the same as programmers working alone. It is literally the idea that two heads really are better than one.\\
+\\
+In our assignment we have somewhat the same. The urge and need for testing with the client is not that important for our client, but we always want the client to see what we have accomplished. Doing so we have had a front end, a visual representation, from day one, making sure that customer always has something to look at and something to pinpoint. Chances are that they know jack about code, so a visual representation really helps clients. The pair programming aspect is something we have somewhat incorporated since we agreed on the fact that 4 people sitting with their own computer and coding the same things wouldn't benefit in any way other than mixing the different files up. It has generally been two people doing one thing, whilst the other two do another thing. We work with a simple design, and before we started we made it clear what our goal was, and had a clear idea of what our page would look like in the end. This simple design we all had imagined can be seen our webpage to this date, where small adjustments has lessened the work load but also helped us making the site easier to use. It is a search engine - nothing more, nothing less. 
 
 \newpage
 
@@ -483,7 +477,7 @@ Right now is there one bug in the code: If you login and logout, and go back in 
 Test summary report:\\
 We have tested our product a lot. But there is not much to test; a searchfield, an advanced-search, an add entry function and a delete entry function. Maybe you could count the add Zoomify-image in too, but we count it under the add function.\\
 Until now did all tests work out fine. We could use the searches and get a working result. We could add and delete entries. And we could also add a new Zoomify-image-folder to the server.
-
+\newpage
 \subsection{Github Log}
 \noindent\makebox[\linewidth]{\rule{16.5cm}{0.4pt}}
 a2f101f (HEAD, origin/master, origin/HEAD, master) Newest version of report 2.\\
@@ -534,27 +528,32 @@ bfcbd73 sup\\
 \noindent\makebox[\linewidth]{\rule{16.5cm}{0.4pt}}
 
 The code at this point in time have been developed in cooperation with the entire group through meetings at the school, where we worked on the code on only a single computer. As such, the Github log will not bear trace of editing of the code. The line 696e499 however shows the addition of the beta-version's code to the project's folder.
-
+\newpage
 \subsection{Changelog}
 
 	$$
 	\begin{array}{lrl}
-	\bf{Date} & \bf{Name} & \bf{Change} \\ 
-	20-04-15 & YO/TD/EG/CL & Added~seachfield~and~\text{-}button \\
-	20-04-15 & YO/TD/EG/CL & Added~database~and~entries \\
-	20-04-15 & YO/TD/EG/CL & \vtop{\hbox{\strut \emph{Added~edit\-link}}} \\
-	21-04-15 & YO/TD & \vtop{\hbox{\strut \emph{Added~Family\text{-},~Genus\text{-}~and~Species\text{-}names~form~the~database}}\hbox{\strut \emph{to~the~webpage}}} ~\\~
-	21-04-15 & YO/TD & Added~picture~of~the~found~insect(s) \\
-	21-04-15 & TD & Added~CSS\text{-}code~to~shine~the~webpage~a~bit~up \\
-	21-04-15 & TD & Updated~the~database,~so~it~actually~shows~an~actual~insect\\
-	21-04-15 & TD & Added~Order\text{-}name\\
-	01-05-15 & TD & Added~Zoomify~pictures~and~the~description~of~the~insect\\
-	01-05-15 & YO & Added~login\\
-	11-05-15 & TD/CL & \vtop{\hbox{\strut \emph{	Added~option,~for~an~employee,~to~add~a~new~entry~into~}}\hbox{\strut \emph{the~database}}} \\
-	11-05-15 & TD/CL & \vtop{\hbox{\strut \emph{	Added~option,~for~an~employee,~to~delete~an~old~entry~from}}\hbox{\strut \emph{the~database}}} \\
-	11-05-15 & CL & \vtop{\hbox{\strut \emph{	Added~feature,~that~displays~all~entries,~when~the~search\text{-}}}\hbox{\strut \emph{~field~is~blank}}}\\
-	11-05-15 & YO/EG & Added~functionality~for~the~advanced~search\\
-	
+	\bf{Date}~&~\bf{Name}~&~\bf{Change}~\\~
+	20-04-15~&~YO/TD/EG/CL~&~Added~seachfield~and~\text{-}button~\\
+	20-04-15~&~YO/TD/EG/CL~&~Added~database~and~entries~\\
+	20-04-15~&~YO/TD/EG/CL~&~\vtop{\hbox{\strut~\emph{Added~edit\-link}}}~\\
+	21-04-15~&~YO/TD~&~\vtop{\hbox{\strut~\emph{Added~Family\text{-},~Genus\text{-}~and~Species\text{-}names~form~the~database}}\hbox{\strut~\emph{to~the~webpage}}}~~\\~
+	21-04-15~&~YO/TD~&~Added~picture~of~the~found~insect(s)~\\
+	21-04-15~&~TD~&~Added~CSS\text{-}code~to~shine~the~webpage~a~bit~up~\\
+	21-04-15~&~TD~&~Updated~the~database,~so~it~actually~shows~an~actual~insect\\
+	21-04-15~&~TD~&~Added~Order\text{-}name\\
+	01-05-15~&~TD~&~Added~Zoomify~pictures~and~the~description~of~the~insect\\
+	01-05-15~&~YO~&~Added~login\\
+	11-05-15~&~TD/CL~&~\vtop{\hbox{\strut~\emph{	Added~option,~for~an~employee,~to~add~a~new~entry~into~}}\hbox{\strut~\emph{the~database}}}~\\
+	11-05-15~&~TD/CL~&~\vtop{\hbox{\strut~\emph{	Added~option,~for~an~employee,~to~delete~an~old~entry~from}}\hbox{\strut~\emph{the~database}}}~\\
+	11-05-15~&~CL~&~\vtop{\hbox{\strut~\emph{	Added~feature,~that~displays~all~entries,~when~the~search\text{-}}}\hbox{\strut~\emph{~field~is~blank}}}\\
+	11-05-15~&~YO/EG~&~Added~functionality~for~the~advanced~search\\
+	01-06-15~&~YO~&~Fixed~issue~with~cookies/cache~\\~
+	01-06-15~&~YO/EG~&~Added~temporary-login~\\~
+	01-06-15~&~YO~&~Fixed~the~temporary-login~so~i~works~as~intended~\\~
+	01-06-15~&~TD/EG~&~Edited~editpage,~so~the~admin~can~add~new~temporary~users~\\~
+	01-06-15~&~TD~&~Edited~editpage,~so~the~admin~can~mark~an~entry~as~hidden~\\~
+	01-06-15~&~TD~&\vtop{\hbox{\strut~\emph{	~Edited~editpage,~so~the~admin~can~look~up~entries,~to~make~it~}}\hbox{\strut~\emph{easier~to~delete~entries}}}
 	\end{array}
 	$$
 \subsection{Timeline}
