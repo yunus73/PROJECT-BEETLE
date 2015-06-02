@@ -146,8 +146,8 @@ We will be using this information as attributes in our database, which will feat
 The search-engine we create will then allow a visitor to input a search-term, which will be tried against any of the attributes in the database and return all entries with an attribute matching.
 In addition, the project will feature an advanced search-engine, which will allow a visitor to input search-terms to be matched against specific attributes, rather than against every attribute.
 Furthermore, UH must be able to update the database themselves, we will therefore provide an administrator control panel – protected by a login system - where entries can be added and deleted.
-Because some of the specimen of insects recorded in the database are potentially threatened by extinction, UH has also requested that the insect's location not be available to everybody.
-We will therefore hide this information from ordinary visitors, but allow the administrator to create temporary users that can view it.
+Because some of the specimen of insects recorded in the database are potentially threatened by extinction, UH has also requested entries can be made not publicly available.
+We will therefore create a function to hide specific entries from ordinary visitors, but allow the administrator to create temporary users that can view it.
 The project will be created using PHP, Javascript and MySQL, and will feature the search-engine, the advanced search-engine, the temporary user copies of the 2 former mentioned as well as an administrator control panel.
 \newpage
 
@@ -156,8 +156,8 @@ The project will be created using PHP, Javascript and MySQL, and will feature th
 Allow visitors to use the 2 search-functions, basic and advanced, to search through a database
 of insect-entries with data collected by the University of Hamburg. 
 Allow the administrator with login-credentials to remove or add new entries to the database.
-Allow the adminstrator to create temporary users for aspiring scientists or enthusiasts, so that they can view information that cannot be publicly available (location of specimen facing potential extinction).
-Allow temporary users to use a log into the website and view all information on every insect in the database. 
+Allow the adminstrator to create temporary users for aspiring scientists or enthusiasts, so that they can view entries that cannot be publicly available (because they might be facing extinction).
+Allow temporary users to use a log into the website and view every insect in the database. 
 \subsection{Application-domain}
 The product is to be available to everybody seeking to use it in the pursuit of knowledge – this means students, researchers, professors and anonymous visitors alike.
 Only the administrator however will be able to make changes to the database, and only users who are given login credentials will be able to view an insect's location.
@@ -186,7 +186,7 @@ If we refer to the abstract outlining the program's specifications, we get a gen
 	\item A fitting message must be displayed if no matching entries are found.
 	\item The database must allow the creation of new entries and deletion of existing entries.
 	\item The database must only be editable by the administrator of the site.
-	\item The administrator must be able to create temporary users that can view an insect's location, which is otherwise not displayed.\\
+	\item The administrator must be able to create temporary users that can view entries that are not otherwise displayed due to being threatened.\\
 \end{itemize}
 {\bf Non-Functional Requirements}
 \begin{itemize}
@@ -204,7 +204,7 @@ If we refer to the abstract outlining the program's specifications, we get a gen
 
 {\bf SearchDatabase}\\ 
 Visitors can use the search-engine by inputting the term(s) they wish to try against the database and the matching results displayed.
-Searching the database requires no logging in.
+Searching the database requires no logging in.\\
 {\bf TempSearchDatabase}\\
 Temporary users can use the search-engine that will also display the location of the entry. They are required to login to access this functionality.\\
 {\bf EditDatabase}\\
@@ -301,7 +301,7 @@ In order to grant an overview of the software-architecture, a class-diagram has 
 
 \includegraphics[height=110mm]{ClassDiagram.png}
 
-The class diagram shows the elements of our website and how they are connected. Our Webpage has two search engines, one for simple search statements, and for a more advanced approach an advanced search. These two can be used by an anonymous visitor, but in addition the admin is using the same search engine in his control panel. The search engines are connected to a database which holds all the entities, can create, edit or remove entries in the database, hence the pictures that pop up when searched for. The database can't do these things by itself, that is why we have made a control panel in which the admin can change the entries, but the admin can also add guest users to the system. Since our project revolves around special butterflies and insects, our goal is to preserve the nature by not giving out details to anyone. Some of the insects are indangered, meaning that the university now have the opportunity to permit certain users access, by creating a temporary user for them in the control panel. These users can only be added or deleted. The admin is connected to all of this, and as we stated earlier the admin takes use of the search engine to make it easier for himself to check for a specific species, subspecies or genus. Instead of looking through of a list a maybe 100 entries, he can search for the specific genus he wishes to look for. In order to make as many entries available for the public, we have added a box which the owners can tick, and telling the database that it can only be accessed by a temporary user created in the system. In our class diagram we have stated this special incident as being a parametre for the temporary users: "Display Location".
+The class diagram shows the elements of our website and how they are connected. Our Webpage has two search engines, one for simple search statements, and for a more advanced approach an advanced search. These two can be used by an anonymous visitor, but in addition the admin is using the same search engine in his control panel. The search engines are connected to a database which holds all the entities, can create, edit or remove entries in the database, hence the pictures that pop up when searched for. The database can't do these things by itself, that is why we have made a control panel in which the admin can change the entries, but the admin can also add guest users to the system. Since our project revolves around special butterflies and insects, our goal is to preserve the nature by not giving out details to anyone. Some of the insects are endangered, meaning that the university now have the opportunity to permit certain users access, by creating a temporary user for them in the control panel. These users can only be added or deleted. The admin is connected to all of this, and as we stated earlier the admin takes use of the search engine to make it easier for himself to check for a specific species, subspecies or genus. Instead of looking through of a list a maybe 100 entries, he can search for the specific genus he wishes to look for. In order to make as many entries available for the public, we have added a box which the owners can tick, and telling the database that it can only be accessed by a temporary user created in the system. In our class diagram we have stated this special incident as being a parametre for the temporary users: "Display Hidden Entries".
 \newpage
 \subsection{BCE}
 
@@ -414,7 +414,9 @@ In order to showcase the unit-interface of the product, a series of screenshots 
 \newpage
 \includegraphics[height=225mm]{UI2.pdf}
 \newpage
-\includegraphics[height=225mm]{UI3.pdf}
+\includegraphics[height=225mm]{UI3.pdf}\\
+In addition to these screenshots, a video has also been recorded which showcases the functionality of the website. It can be found at: \url{https://www.youtube.com/watch?v=pAkcdgJnbgc}
+
 
 
 \newpage
@@ -480,51 +482,457 @@ Until now did all tests work out fine. We could use the searches and get a worki
 \newpage
 \subsection{Github Log}
 \noindent\makebox[\linewidth]{\rule{16.5cm}{0.4pt}}
-a2f101f (HEAD, origin/master, origin/HEAD, master) Newest version of report 2.\\
-0e78c2f timeline/new changelog\\
-3628967 Reviews\\
-af1ee59 okok\\
-696e499 Added new changelog and code\\
-7757964 Current state of the report.\\
-f7b07df ChangeLog 20-21.04\\
-298c0df cleanUP\\
-5370d72 Mjallo virkelig ny\\
-b0eee35 Mjallo ny\\
-3045fee Mjallo\\
-5726df9 Merge remote-tracking branch 'origin/master'\\
-db797ee Fixed it!\\
-8ee517f try tis\\
-ebe615a Edited the report.\\
-339fa41 Report + Pictures\\
-0d21845 Delrapport 1- rettelse 1\\
-c129a2c Killefilder\\
-b0d9a30 Scheduleplan\\
-c477a2f Skillmatrix\\
-5751436 review of the review\\
-6d0c506 Echo delrapport\\
-0df006f Feedback til Project Echo\\
-f2cdb65 .tex-filer 4 you\\
-783af0a Redone the enviroment\\
-16bfea5 English corrections/changes\\
-5c8451d Changed the name\\
-dd63eb0 Hermaen\\
-6b0723b delrapport 1 assignments\\
-be9faa6 1.6/1.8\\
-0787272 Clean up!\\
-00a6714 delete double\\
-4f6a322 Projekt Etablering\\
-d20a468 Rewrote the description\\
-96050db Statements and Project Agreement Definition\\
-da46259 Hello\\
-4c5850d Initial Software Architecture (updated)\\
-fa8824f Initial Software architecture\\
-906e4ca Initial SPMP\\
-0789c6f Introductory/Problem statement\\
-acb4324 7.1 Deployment Diagram\\
-bfcbd73 sup\\
-9efec63 Revert "HEJ YUNUS"\\
-13eef81 HEJ YUNUS\\
-0851690 Hello Casper\\
+commit 8b20be842e7ca59aae72ecfce593dd778557bbef
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Tue Jun 2 00:24:04 2015 +0200
+
+Report update
+
+Missing commit log, flow-diagram, some testing stuff and the YouTube
+video
+
+commit 4577a9e9206e201af0fc710b2b7de0a6965abe6c
+Author: gol1c <enesgolic@live.dk>
+Date:   Mon Jun 1 22:44:24 2015 +0200
+
+Reviews final!
+
+commit 1998637a88ad45fb73d849a36549fa09b672e275
+Author: gol1c <enesgolic@live.dk>
+Date:   Mon Jun 1 20:20:01 2015 +0200
+
+Current Progress of the report v2
+
+Added Sequence diagrams. Added BCE and description. Added Class Diagram
+with description.
+Added Review of Peter Naur's text
+
+commit fdc578f2ad24b14117933608cfd003ccbb3bf975
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Mon Jun 1 16:16:22 2015 +0200
+
+commit log
+
+note to self: git shell ->
+git log > log.txt
+
+commit 40204ffe9ce061bfac294dd88706b8ff56a6ba67
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Mon Jun 1 15:58:13 2015 +0200
+
+Changelog delraport4
+
+commit 675c39836aa2571093c5c1f3207114a2a48e7cb4
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Mon Jun 1 12:55:42 2015 +0200
+
+Current progress of report.
+
+Updated Abstract, FACTOR, functional requirements, Use-case diagram,
+specific use-cases, class-diagram and a lot of text.
+
+commit 195c0a39d9634e79a6fca7dfaa56f11c409c8105
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Wed May 13 01:39:27 2015 +0200
+
+Newest version of report
+
+The newest version of the current report - only missing litterature
+reviews and commit-log
+
+commit f9339cf68b8dda5f980168a77b2d7f9ce604c808
+Merge: 2006134 a53631f
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Wed May 13 00:58:47 2015 +0200
+
+Merge branch 'master' of https://github.com/yunus73/PROJECT-BEETLE
+
+commit a53631f150dd4b5a2409e2e9d479b71cb99c95b0
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Tue May 12 11:49:17 2015 +0200
+
+Underskrift p├Ñ PAD
+
+commit 6434af45e72392dab6c3f401fef5465cf545cb50
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Tue May 12 11:44:52 2015 +0200
+
+Test og -bilag
+
+commit 4cd0fdc87fe731176b8d145f8550e109e1fa1497
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Mon May 11 21:04:10 2015 +0200
+
+Changelog
+
+commit bd3b4eba5f5aa239041215ab111d2d0bae4d4489
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Mon May 11 18:21:28 2015 +0200
+
+Project Agreement Definition
+
+PAD for the costumer
+
+commit 20061346a0c24845a210b70a8354393f54bf563f
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Wed Apr 22 01:34:06 2015 +0200
+
+Finished version of report 2!
+
+All models and descriptions added, will upload the report shortly.
+
+commit e93c13891bb4264b7d0a729a14d5be02105f79aa
+Author: yunus73 <yun933141@gmail.com>
+Date:   Wed Apr 22 01:24:42 2015 +0200
+
+Updated BCEMODEL
+
+commit 75f7cadce41820ca3cc82e31ffad9b3fbaabd98d
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Wed Apr 22 00:59:54 2015 +0200
+
+Almost finished version of the report.
+
+Only the BCE-diagram is missing.
+
+commit d6be929036b7d326017adc96a4d680b09ff6c180
+Author: yunus73 <yun933141@gmail.com>
+Date:   Wed Apr 22 00:59:00 2015 +0200
+
+BCEMODEL
+
+commit bb6a58e6dcc960b80874ef0f20a69f3c22d2d997
+Author: gol1c <enesgolic@live.dk>
+Date:   Wed Apr 22 00:39:22 2015 +0200
+
+Diagrams
+
+3 Use Cases and 1 Class Diagram
+
+commit 87c8d0e13cc2c07cf6d31e6ddd19bb1b031f89dc
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Wed Apr 22 00:16:18 2015 +0200
+
+log
+
+commit a2f101fd1d53f2a48a609b4248973931d2246762
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Tue Apr 21 23:59:23 2015 +0200
+
+Newest version of report 2.
+
+Added the litterature reviews and changed some stuff around/added some
+stuff here and there.
+
+commit 0e78c2f140753bee0c9d81675f9a4be3b8b80b62
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Tue Apr 21 23:57:55 2015 +0200
+
+timeline/new changelog
+
+commit 36289677a765ca0b1233cd127c299446420a61f6
+Author: gol1c <enesgolic@live.dk>
+Date:   Tue Apr 21 23:25:24 2015 +0200
+
+Reviews
+
+Reviews of the two papers.
+
+commit af1ee59f4b9ab9719db1f286b4ac88934b22cf85
+Author: gol1c <enesgolic@live.dk>
+Date:   Tue Apr 21 23:24:08 2015 +0200
+
+okok
+
+Skal ├Ñbenbart commite f├╕r jeg can synce. DONT USE THIS
+
+commit 696e4999ede32af3353b7b76f32b9f7d50d14e85
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Tue Apr 21 23:10:41 2015 +0200
+
+Added new changelog and code
+
+commit 7757964b1829bbb72615b62835f3865b36c4eb94
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Tue Apr 21 23:02:28 2015 +0200
+
+Current state of the report.
+
+This is the current state of partial report 2, still missing some
+points.
+
+commit f7b07df6661d4d4e7b28feded204a7b24f27b559
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Tue Apr 21 22:36:35 2015 +0200
+
+ChangeLog 20-21.04
+
+commit 298c0df1a827d7abe8e8f64ab4dbfcae728814fd
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Tue Apr 21 21:19:00 2015 +0200
+
+cleanUP
+
+commit 5370d72b85a93d892e3ab1788d7b54f288c55842
+Author: yunus73 <yun933141@gmail.com>
+Date:   Tue Mar 31 22:35:43 2015 +0200
+
+Mjallo virkelig ny
+
+commit b0eee357d0624164d6b055d0f920a88be07eeee4
+Author: yunus73 <yun933141@gmail.com>
+Date:   Tue Mar 31 21:00:36 2015 +0200
+
+Mjallo ny
+
+commit 3045fee9ccf70078c5da93925c67dff383287c11
+Author: yunus73 <yun933141@gmail.com>
+Date:   Tue Mar 31 21:00:12 2015 +0200
+
+Mjallo
+
+commit 5726df9712cd379e4bf1852277a81859f64b38eb
+Merge: db797ee 8ee517f
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Tue Mar 31 20:46:45 2015 +0200
+
+Merge remote-tracking branch 'origin/master'
+
+Conflicts:
+Delrapport 1/1 opgaver.log
+Delrapport 1/1 opgaver.pdf
+Delrapport 1/1 opgaver.synctex.gz
+
+commit db797ee5d68ac6723f919d152a86b9033875327a
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Tue Mar 31 20:45:16 2015 +0200
+
+Fixed it!
+
+commit 8ee517f6998900948287d6f762d72902b5f959ce
+Author: yunus73 <yun933141@gmail.com>
+Date:   Tue Mar 31 20:45:10 2015 +0200
+
+try tis
+
+commit ebe615ae222932117f361dcfa6db94c4e96caaaa
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Tue Mar 31 19:35:32 2015 +0200
+
+Edited the report.
+
+Logo added, Problem Statement changed.
+
+commit 339fa41b0ea5833d997d0a3156fa393f777a91c2
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Tue Mar 31 18:41:37 2015 +0200
+
+Report + Pictures
+
+Missing file KULogo.pdf to compile.
+
+commit 0d21845509f086db663ddd3e1f9bc837a48431f0
+Author: gol1c <enesgolic@live.dk>
+Date:   Mon Mar 30 11:42:09 2015 +0200
+
+Delrapport 1- rettelse 1
+
+Der mangler stadig meget at skulle rettes drenge. Jeg kan ikke lave mere
+nu, har ikke mere materiale til r├Ñdighed nu.
+
+Skriv til mig, vi skal have lavet det her.
+
+commit c129a2c8d39a08817ae8b1af6f4e66e52b70c8e3
+Author: yunus73 <yun933141@gmail.com>
+Date:   Mon Mar 30 22:03:00 2015 +0200
+
+Killefilder
+
+Mjallo
+
+commit b0d9a30e25ab130b74aae20dfc13751086fad25d
+Author: yunus73 <yun933141@gmail.com>
+Date:   Mon Mar 30 21:56:40 2015 +0200
+
+Scheduleplan
+
+Mjallo
+
+commit c477a2f0b1cd43f3e8c5f5fad3ee5610d45ec5a9
+Author: yunus73 <yun933141@gmail.com>
+Date:   Mon Mar 30 21:02:24 2015 +0200
+
+Skillmatrix
+
+mjallo
+
+commit 57514365ae01e66fc840a1a83a9179da99af024b
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Wed Mar 25 18:14:21 2015 +0100
+
+review of the review
+
+commit 6d0c506dba8431f54e9981bc898c830886223327
+Author: gol1c <enesgolic@live.dk>
+Date:   Wed Mar 25 17:48:33 2015 +0100
+
+Echo delrapport
+
+commit 0df006f92077a6b459be84ea12024602cf1d2085
+Author: gol1c <enesgolic@live.dk>
+Date:   Wed Mar 25 02:37:06 2015 +0100
+
+Feedback til Project Echo
+
+commit f2cdb6502564f898d552c8f5155ea625e0bad597
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Tue Mar 24 18:28:19 2015 +0100
+
+.tex-filer 4 you
+
+commit 783af0a7dd52a49736377bcf7fcad341bd6ae45b
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Mon Mar 23 13:28:59 2015 +0100
+
+Redone the enviroment
+
+Sort after lort
+
+commit 16bfea5826fec94696e582579f37c8fd2ec56984
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Mon Mar 23 13:08:08 2015 +0100
+
+English corrections/changes
+
+English part of the document
+
+commit 5c8451d83064b0c0b29857c8f75712a86f11ebb4
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Mon Mar 23 11:54:57 2015 +0100
+
+Changed the name
+
+Because Yunus cant do it proper
+
+commit dd63eb090704d7f502b7b79397047ad4976ad58e
+Author: yunus73 <yun933141@gmail.com>
+Date:   Mon Mar 23 11:50:20 2015 +0100
+
+Hermaen
+
+commit 6b0723be7163a375c2a9a2e5359a777d04aaa285
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Sat Mar 21 12:26:27 2015 +0100
+
+delrapport 1 assignments
+
+commit be9faa6af526e161f19e2c7ad3d64877d004d380
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Sat Mar 21 12:10:43 2015 +0100
+
+1.6/1.8
+
+commit 078727206a345068ad71637c608e7fd16257f130
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Sat Mar 21 11:47:48 2015 +0100
+
+Clean up!
+
+commit 00a67141008584aed46537f9fe63f2aa2e6e86a7
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Fri Mar 20 17:18:18 2015 +0100
+
+delete double
+
+commit 4f6a322e51e9abd238f07aa975d4f35f594cd50a
+Author: gol1c <enesgolic@live.dk>
+Date:   Fri Mar 20 16:53:51 2015 +0100
+
+Projekt Etablering
+
+commit d20a46817e08e7613bc7a6b16d668e48cebc7b63
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Fri Mar 20 16:52:29 2015 +0100
+
+Rewrote the description
+
+commit 96050dbd1e2b98be793fcd90607a0d36cefaba0a
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Fri Mar 20 16:39:51 2015 +0100
+
+Statements and Project Agreement Definition
+
+The finished initial statements of our rapport as well as the initial
+issue of the Project Agreement Definition.
+
+commit da46259144ba11472c71b59d9b5a23039996858c
+Author: yunus73 <yun933141@gmail.com>
+Date:   Fri Mar 20 16:35:21 2015 +0100
+
+Hello
+
+commit 4c5850dbebe4dc945c52d14bdcdd7d123677ace1
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Fri Mar 20 16:16:09 2015 +0100
+
+Initial Software Architecture (updated)
+
+commit fa8824f3801c8de0b346d385762fc8a090485a2e
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Fri Mar 20 15:02:58 2015 +0100
+
+Initial Software architecture
+
+commit 906e4ca7670e3a2340423a03b92635f3627a5041
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Fri Mar 20 14:57:34 2015 +0100
+
+Initial SPMP
+
+commit 0789c6f12293fd05c1f67e31535fbac089ec5b3d
+Author: Arcaedes <casper.lutzhoft@gmail.com>
+Date:   Fri Mar 20 14:38:12 2015 +0100
+
+Introductory/Problem statement
+
+The first 2 statements to our report.
+
+commit acb432477ecd86315b4c18059172ae99569b6194
+Author: TorSalve <torsalve.dalsgaard@yahoo.de>
+Date:   Fri Mar 20 14:35:26 2015 +0100
+
+7.1 Deployment Diagram
+
+commit bfcbd73bef6e603b15e7f22c90d21abc6e22304f
+Author: gol1c <enesgolic@live.dk>
+Date:   Fri Mar 20 14:29:55 2015 +0100
+
+sup
+
+commit 9efec634675f963b5455292637582147676a557b
+Author: gol1c <enesgolic@live.dk>
+Date:   Fri Mar 20 14:01:05 2015 +0100
+
+Revert "HEJ YUNUS"
+
+This reverts commit 707601f0da6d54a88530306be6251417eb5e39b4.
+
+commit 13eef8153adf3e5c672ee19713b009108c0d0200
+Author: gol1c <enesgolic@live.dk>
+Date:   Fri Mar 20 13:59:46 2015 +0100
+
+HEJ YUNUS
+
+YUNUS IS HAIRY
+
+commit 0851690c2269aa1347c9af60231434a85ed71df1
+Author: yunus73 <yun933141@gmail.com>
+Date:   Fri Mar 20 13:54:19 2015 +0100
+
+Hello Casper
+
+Casper is VERY BALD
+
 \noindent\makebox[\linewidth]{\rule{16.5cm}{0.4pt}}
 
 The code at this point in time have been developed in cooperation with the entire group through meetings at the school, where we worked on the code on only a single computer. As such, the Github log will not bear trace of editing of the code. The line 696e499 however shows the addition of the beta-version's code to the project's folder.
@@ -553,7 +961,8 @@ The code at this point in time have been developed in cooperation with the entir
 	01-06-15~&~YO~&~Fixed~the~temporary-login~so~i~works~as~intended~\\~
 	01-06-15~&~TD/EG~&~Edited~editpage,~so~the~admin~can~add~new~temporary~users~\\~
 	01-06-15~&~TD~&~Edited~editpage,~so~the~admin~can~mark~an~entry~as~hidden~\\~
-	01-06-15~&~TD~&\vtop{\hbox{\strut~\emph{	~Edited~editpage,~so~the~admin~can~look~up~entries,~to~make~it~}}\hbox{\strut~\emph{easier~to~delete~entries}}}
+	01-06-15~&~TD~&\vtop{\hbox{\strut~\emph{	~Edited~editpage,~so~the~admin~can~look~up~entries,~to~make~it~}}\hbox{\strut~\emph{easier~to~delete~entries}}}\\~
+	02-06-15~&~CL~&~Revamped~the~entire~report~and~added~video
 	\end{array}
 	$$
 \subsection{Timeline}
@@ -570,6 +979,10 @@ The code at this point in time have been developed in cooperation with the entir
 	
 	Finished product - {\bf 11th of May} - On this date all functionality missing from the website was implemented and tested, so that we would end up with a product that (apart from a particular bug) is complete.\\
 	It was also shown to the University of Hamburg, where they expressed great satisfaction with our product, and also the way we provided the option for displaying all entries, even prefering it to the one they had originally desired.\\
+	
+	Additional functionality - {\bf 2nd of June} - Leading up to this date, a lot of additional functionality has been added to the product.\\
+	For starters, it is now possible to mark entries as "threatened", which will hide them in the public search-engine and only make them available to people with a temporary login.\\
+	\\Furthermore the administrator function to add a temporary user has also been added to the product, which is now fully operational and meets all the criterias set by the University of Hamburg.
 
 
 
