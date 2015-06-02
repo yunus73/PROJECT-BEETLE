@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.1)  2 JUN 2015 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.1)  2 JUN 2015 22:32
 entering extended mode
 **"Delrapport 4.tex"
 ("Delrapport 4.tex"
@@ -21,240 +21,10 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
-\c@tracingmulticols=\count87
-\mult@box=\box26
-\multicol@leftmargin=\dimen103
-\c@unbalance=\count88
-\c@collectmore=\count89
-\doublecol@number=\count90
-\multicoltolerance=\count91
-\multicolpretolerance=\count92
-\full@width=\dimen104
-\page@free=\dimen105
-\premulticols=\dimen106
-\postmulticols=\dimen107
-\multicolsep=\skip43
-\multicolbaselineskip=\skip44
-\partial@page=\box27
-\last@line=\box28
-\maxbalancingoverflow=\dimen108
-\mult@rightbox=\box29
-\mult@grightbox=\box30
-\mult@gfirstbox=\box31
-\mult@firstbox=\box32
-\@tempa=\box33
-\@tempa=\box34
-\@tempa=\box35
-\@tempa=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
-\@tempa=\box49
-\c@columnbadness=\count93
-\c@finalcolumnbadness=\count94
-\last@try=\dimen109
-\multicolovershoot=\dimen110
-\multicolundershoot=\dimen111
-\mult@nat@firstbox=\box50
-\colbreak@box=\box51
-\mc@col@check@num=\count95
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count96
-\c@Blindtext=\count97
-\c@blind@countparstart=\count98
-\blind@countxx=\count99
-\blindtext@numBlindtext=\count100
-\blind@countyy=\count101
-\c@blindlist=\count102
-\c@blindlistlevel=\count103
-\c@blindlist@level=\count104
-\blind@listitem=\count105
-\c@blind@listcount=\count106
-\c@blind@levelcount=\count107
-\blind@mathformula=\count108
-\blind@Mathformula=\count109
-\c@blind@randomcount=\count110
-\c@blind@randommax=\count111
-\c@blind@pangramcount=\count112
-\c@blind@pangrammax=\count113
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.tex" Bootstrap'ing:
-catcodes, docmode, ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrecat.tex"
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyidioms.tex")
-
- Xy-pic version 3.8.9 <2013/10/06>
- Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
- Xy-pic is free software: see the User's Guide for details.
-
-Loading kernel: messages; fonts; allocations: state,
-\X@c=\dimen112
-\Y@c=\dimen113
-\U@c=\dimen114
-\D@c=\dimen115
-\L@c=\dimen116
-\R@c=\dimen117
-\Edge@c=\toks14
-\X@p=\dimen118
-\Y@p=\dimen119
-\U@p=\dimen120
-\D@p=\dimen121
-\L@p=\dimen122
-\R@p=\dimen123
-\Edge@p=\toks15
-\X@origin=\dimen124
-\Y@origin=\dimen125
-\X@xbase=\dimen126
-\Y@xbase=\dimen127
-\X@ybase=\dimen128
-\Y@ybase=\dimen129
-\X@min=\dimen130
-\Y@min=\dimen131
-\X@max=\dimen132
-\Y@max=\dimen133
-\lastobjectbox@=\box52
-\zerodotbox@=\box53
-\almostz@=\dimen134
- direction,
-\d@X=\dimen135
-\d@Y=\dimen136
-\K@=\count114
-\KK@=\count115
-\Direction=\count116
-\K@dXdY=\dimen137
-\K@dYdX=\dimen138
-\xyread@=\read1
-\xywrite@=\write3
-\csp@=\count117
-\quotPTK@=\dimen139
-
-utility macros; pictures: \xy, positions,
-\swaptoks@@=\toks16
-\connectobjectbox@@=\box54
- objects,
-\styletoks@=\toks17
- decorations;
-kernel objects: directionals, circles, text; options; algorithms: directions,
-edges, connections;  Xy-pic loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package: xy 2013/10/06 Xy-pic version 3.8.9
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyall.tex"
- Xy-pic option: All features v.3.8
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
- Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count118
-\crvpts@=\toks18
-\splinebox@=\box55
-\splineval@=\dimen140
-\splinedepth@=\dimen141
-\splinetol@=\dimen142
-\splinelength@=\dimen143
- circles,
-\L@=\dimen144
- loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyframe.tex"
- Xy-pic option: Frame and Bracket extension v.3.14 loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycmtip.tex"
- Xy-pic option: Computer Modern tip extension v.3.7
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xytips.tex"
- Xy-pic option: More Tips extension v.3.11 loaded) loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyline.tex"
- Xy-pic option: Line styles extension v.3.10
-\xylinethick@=\dimen145
- loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrotate.tex"
- Xy-pic option: Rotate and Scale extension v.3.8 loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycolor.tex"
- Xy-pic option: Colour extension v.3.11 loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
- Xy-pic option: Matrix feature v.3.14
-\Row=\count119
-\Col=\count120
-\queue@=\toks19
-\queue@@=\toks20
-\qcount@=\count121
-\qcount@@=\count122
-\matrixsize@=\count123
- loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
- Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xygraph.tex"
- Xy-pic option: Graph feature v.3.11 loaded) loaded)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf.tex"
- Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-co.tex" loaded)
-Xy-pic pdf driver: `curve' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-cu.tex" loaded)
-Xy-pic pdf driver: `frame' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-fr.tex" loaded)
-Xy-pic pdf driver: `line' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-li.tex" loaded)
-Xy-pic pdf driver: `rotate' extension support
-("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-ro.tex" loaded) loaded))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count124
-))
-\Gin@req@height=\dimen146
-\Gin@req@width=\dimen147
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2014/04/30 v1.2b Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -467,6 +237,236 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen108
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count95
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count96
+\c@Blindtext=\count97
+\c@blind@countparstart=\count98
+\blind@countxx=\count99
+\blindtext@numBlindtext=\count100
+\blind@countyy=\count101
+\c@blindlist=\count102
+\c@blindlistlevel=\count103
+\c@blindlist@level=\count104
+\blind@listitem=\count105
+\c@blind@listcount=\count106
+\c@blind@levelcount=\count107
+\blind@mathformula=\count108
+\blind@Mathformula=\count109
+\c@blind@randomcount=\count110
+\c@blind@randommax=\count111
+\c@blind@pangramcount=\count112
+\c@blind@pangrammax=\count113
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.tex" Bootstrap'ing:
+catcodes, docmode, ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrecat.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyidioms.tex")
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen112
+\Y@c=\dimen113
+\U@c=\dimen114
+\D@c=\dimen115
+\L@c=\dimen116
+\R@c=\dimen117
+\Edge@c=\toks16
+\X@p=\dimen118
+\Y@p=\dimen119
+\U@p=\dimen120
+\D@p=\dimen121
+\L@p=\dimen122
+\R@p=\dimen123
+\Edge@p=\toks17
+\X@origin=\dimen124
+\Y@origin=\dimen125
+\X@xbase=\dimen126
+\Y@xbase=\dimen127
+\X@ybase=\dimen128
+\Y@ybase=\dimen129
+\X@min=\dimen130
+\Y@min=\dimen131
+\X@max=\dimen132
+\Y@max=\dimen133
+\lastobjectbox@=\box52
+\zerodotbox@=\box53
+\almostz@=\dimen134
+ direction,
+\d@X=\dimen135
+\d@Y=\dimen136
+\K@=\count114
+\KK@=\count115
+\Direction=\count116
+\K@dXdY=\dimen137
+\K@dYdX=\dimen138
+\xyread@=\read1
+\xywrite@=\write3
+\csp@=\count117
+\quotPTK@=\dimen139
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks18
+\connectobjectbox@@=\box54
+ objects,
+\styletoks@=\toks19
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyall.tex"
+ Xy-pic option: All features v.3.8
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count118
+\crvpts@=\toks20
+\splinebox@=\box55
+\splineval@=\dimen140
+\splinedepth@=\dimen141
+\splinetol@=\dimen142
+\splinelength@=\dimen143
+ circles,
+\L@=\dimen144
+ loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyframe.tex"
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycmtip.tex"
+ Xy-pic option: Computer Modern tip extension v.3.7
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xytips.tex"
+ Xy-pic option: More Tips extension v.3.11 loaded) loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyline.tex"
+ Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen145
+ loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrotate.tex"
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycolor.tex"
+ Xy-pic option: Colour extension v.3.11 loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count119
+\Col=\count120
+\queue@=\toks21
+\queue@@=\toks22
+\qcount@=\count121
+\qcount@@=\count122
+\matrixsize@=\count123
+ loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xygraph.tex"
+ Xy-pic option: Graph feature v.3.11 loaded) loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf.tex"
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-co.tex" loaded)
+Xy-pic pdf driver: `curve' extension support
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-cu.tex" loaded)
+Xy-pic pdf driver: `frame' extension support
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-fr.tex" loaded)
+Xy-pic pdf driver: `line' extension support
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-li.tex" loaded)
+Xy-pic pdf driver: `rotate' extension support
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-ro.tex" loaded) loaded))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count124
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -783,129 +783,129 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 \symusualmathcal=\mathgroup8
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 58.
+(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 59.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \alpha on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \beta on input line 61.
-LaTeX Font Info:    Redeclaring math symbol \gamma on input line 62.
-LaTeX Font Info:    Redeclaring math symbol \delta on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 64.
-LaTeX Font Info:    Redeclaring math symbol \zeta on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \eta on input line 66.
-LaTeX Font Info:    Redeclaring math symbol \theta on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \iota on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \kappa on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \lambda on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \mu on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \nu on input line 72.
-LaTeX Font Info:    Redeclaring math symbol \xi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \pi on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \rho on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \sigma on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \tau on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \upsilon on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \phi on input line 79.
-LaTeX Font Info:    Redeclaring math symbol \chi on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \psi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \omega on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \varepsilon on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \vartheta on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \varpi on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \varrho on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 87.
-LaTeX Font Info:    Redeclaring math symbol \varphi on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 92.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 93.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 96.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \upGamma on input line 100.
-LaTeX Font Info:    Redeclaring math symbol \upDelta on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \upTheta on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \upLambda on input line 103.
-LaTeX Font Info:    Redeclaring math symbol \upXi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \upPi on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \upSigma on input line 106.
-LaTeX Font Info:    Redeclaring math symbol \upUpsilon on input line 107.
-LaTeX Font Info:    Redeclaring math symbol \upPhi on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \upPsi on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \upOmega on input line 110.
+(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \alpha on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \beta on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \gamma on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \delta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \zeta on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \eta on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \theta on input line 68.
+LaTeX Font Info:    Redeclaring math symbol \iota on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \kappa on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \lambda on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \mu on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \nu on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \xi on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \pi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \rho on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \sigma on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \tau on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \upsilon on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \phi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \chi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \psi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \omega on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \varepsilon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \vartheta on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \varpi on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \varrho on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \varphi on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \upGamma on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \upDelta on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \upTheta on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \upLambda on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \upXi on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \upPi on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \upSigma on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \upUpsilon on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \upPhi on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \upPsi on input line 110.
+LaTeX Font Info:    Redeclaring math symbol \upOmega on input line 111.
 
 ("Delrapport 4.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 116.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
-5.
+6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 115
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 116
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
-5.
+6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
-5.
+6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 115.
+LaTeX Font Info:    Try loading font information for U+msa on input line 116.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 115.
+LaTeX Font Info:    Try loading font information for U+msb on input line 116.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 116.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
-Package xypdf Info: Line width: 0.47987pt on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
+Package xypdf Info: Line width: 0.47987pt on input line 116.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -922,7 +922,7 @@ Package xypdf Info: Line width: 0.47987pt on input line 115.
 \everyMPtoPDFconversion=\toks36
 )
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 115.
+Package hyperref Info: Link coloring OFF on input line 116.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -931,26 +931,26 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 115.
-LaTeX Info: Redefining \pageref on input line 115.
-LaTeX Info: Redefining \nameref on input line 115.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 ("Delrapport 4.out") ("Delrapport 4.out")
 \@outlinefile=\write4
 \c@lstlisting=\count163
 
-<KULogo.pdf, id=135, 146.5475pt x 202.7575pt>
+<KULogo.pdf, id=143, 146.5475pt x 202.7575pt>
 File: KULogo.pdf Graphic file (type pdf)
  <use KULogo.pdf>
-Package pdftex.def Info: KULogo.pdf used on input line 118.
+Package pdftex.def Info: KULogo.pdf used on input line 119.
 (pdftex.def)             Requested size: 102.82626pt x 142.26378pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 123.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 124.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./KULogo.pdf>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 138.
  ("Delrapport 4.toc"
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -959,700 +959,651 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \tf@toc=\write5
  [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 142.
  [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 182.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 183.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-[6] <UseCase.png, id=200, 404.51125pt x 425.59pt>
+[6] <UseCase.png, id=210, 404.51125pt x 425.59pt>
 File: UseCase.png Graphic file (type png)
  <use UseCase.png>
-Package pdftex.def Info: UseCase.png used on input line 203.
+Package pdftex.def Info: UseCase.png used on input line 204.
 (pdftex.def)             Requested size: 324.54146pt x 341.43306pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--215
+Underfull \hbox (badness 10000) in paragraph at lines 206--216
 
  []
 
 [7 <./UseCase.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
 
-Overfull \hbox (6.30807pt too wide) in paragraph at lines 229--247
+Overfull \hbox (6.30807pt too wide) in paragraph at lines 230--248
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--247
+Underfull \hbox (badness 10000) in paragraph at lines 230--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
 
  []
 
 
-Overfull \hbox (6.03226pt too wide) in paragraph at lines 251--272
+Overfull \hbox (6.03226pt too wide) in paragraph at lines 252--273
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--272
+Underfull \hbox (badness 10000) in paragraph at lines 252--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--272
+Underfull \hbox (badness 10000) in paragraph at lines 252--273
 
  []
 
 
-Overfull \hbox (6.03226pt too wide) in paragraph at lines 273--294
+Overfull \hbox (6.03226pt too wide) in paragraph at lines 274--295
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--294
+Underfull \hbox (badness 10000) in paragraph at lines 274--295
 
  []
 
-[8] <ClassDiagram.png, id=212, 696.6025pt x 522.95375pt>
+[8] <ClassDiagram.png, id=222, 696.6025pt x 522.95375pt>
 File: ClassDiagram.png Graphic file (type png)
 
 <use ClassDiagram.png>
-Package pdftex.def Info: ClassDiagram.png used on input line 302.
+Package pdftex.def Info: ClassDiagram.png used on input line 303.
 (pdftex.def)             Requested size: 416.91243pt x 312.9803pt.
  [9 <./ClassDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-<Sequence1.pdf, id=224, 325.81726pt x 171.30249pt>
+<Sequence1.pdf, id=234, 325.81726pt x 171.30249pt>
 File: Sequence1.pdf Graphic file (type pdf)
  <use Sequence1.pdf>
-Package pdftex.def Info: Sequence1.pdf used on input line 346.
+Package pdftex.def Info: Sequence1.pdf used on input line 347.
 (pdftex.def)             Requested size: 497.93698pt x 261.76535pt.
 
-Overfull \hbox (28.46652pt too wide) in paragraph at lines 346--347
+Overfull \hbox (28.46652pt too wide) in paragraph at lines 347--348
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
-<Sequence2.jpg, id=225, 729.72626pt x 346.29375pt>
+<Sequence2.jpg, id=235, 729.72626pt x 346.29375pt>
 File: Sequence2.jpg Graphic file (type jpg)
  <use Sequence2.jpg>
-Package pdftex.def Info: Sequence2.jpg used on input line 350.
+Package pdftex.def Info: Sequence2.jpg used on input line 351.
 (pdftex.def)             Requested size: 515.63737pt x 244.6937pt.
 
-Overfull \hbox (46.16692pt too wide) in paragraph at lines 350--354
+Overfull \hbox (46.16692pt too wide) in paragraph at lines 351--355
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--354
+Underfull \hbox (badness 10000) in paragraph at lines 351--355
 
  []
 
 [11 <./Sequence1.pdf> <./Sequence2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-<Sequence3.jpg, id=233, 638.385pt x 346.29375pt>
+<Sequence3.jpg, id=243, 638.385pt x 346.29375pt>
 File: Sequence3.jpg Graphic file (type jpg)
  <use Sequence3.jpg>
-Package pdftex.def Info: Sequence3.jpg used on input line 357.
+Package pdftex.def Info: Sequence3.jpg used on input line 358.
 (pdftex.def)             Requested size: 482.56705pt x 261.76535pt.
 
-Overfull \hbox (13.09659pt too wide) in paragraph at lines 357--358
+Overfull \hbox (13.09659pt too wide) in paragraph at lines 358--359
 [][] 
  []
 
 [12 <./Sequence3.jpg>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 364.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 365.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (15.67694pt too wide) in paragraph at lines 364--365
+Overfull \hbox (15.67694pt too wide) in paragraph at lines 365--366
 \T1/ptm/m/n/12 The Pro-to-type of our prod-uct can be found and ac-cessed at: [
 ]$\T1/cmtt/m/n/12 http : / / echiever . de / ProjectBeetle /$
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 393--404
+Underfull \hbox (badness 10000) in paragraph at lines 398--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--404
+Underfull \hbox (badness 10000) in paragraph at lines 398--409
 
  []
 
-[14] <UI1.pdf, id=250, 597.23125pt x 845.1575pt>
+[14] <UI1.pdf, id=260, 597.23125pt x 845.1575pt>
 File: UI1.pdf Graphic file (type pdf)
  <use UI1.pdf>
-Package pdftex.def Info: UI1.pdf used on input line 413.
+Package pdftex.def Info: UI1.pdf used on input line 418.
 (pdftex.def)             Requested size: 412.19025pt x 583.2815pt.
- [15 <./UI1.pdf>] <UI2.pdf, id=276, 597.23125pt x 845.1575pt>
+ [15 <./UI1.pdf>] <UI2.pdf, id=286, 597.23125pt x 845.1575pt>
 File: UI2.pdf Graphic file (type pdf)
  <use UI2.pdf>
-Package pdftex.def Info: UI2.pdf used on input line 415.
+Package pdftex.def Info: UI2.pdf used on input line 420.
 (pdftex.def)             Requested size: 452.39682pt x 640.187pt.
  [16 <./UI2.pdf>]
-<UI3.pdf, id=302, 597.23125pt x 845.1575pt>
+<UI3.pdf, id=312, 597.23125pt x 845.1575pt>
 File: UI3.pdf Graphic file (type pdf)
  <use UI3.pdf>
-Package pdftex.def Info: UI3.pdf used on input line 417.
+Package pdftex.def Info: UI3.pdf used on input line 422.
 (pdftex.def)             Requested size: 452.39682pt x 640.187pt.
- [17 <./UI3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 429--436
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+<Flowchart.png, id=313, 732.7375pt x 589.20125pt> [17 <./UI3.pdf>]
+File: Flowchart.png Graphic file (type png)
+
+<use Flowchart.png>
+Package pdftex.def Info: Flowchart.png used on input line 428.
+(pdftex.def)             Requested size: 477.69368pt x 384.1122pt.
+
+Overfull \hbox (8.22322pt too wide) in paragraph at lines 428--429
+[][] 
+ []
+
+[18 <./Flowchart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 442--449
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--440
+Underfull \hbox (badness 10000) in paragraph at lines 450--453
 
  []
 
-[18] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 460--465
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 472--482
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--482
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--482
+[19] [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 473--478
 
  []
 
 [22]
-Overfull \hbox (33.20549pt too wide) in paragraph at lines 484--488
+Underfull \hbox (badness 10000) in paragraph at lines 485--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--495
+
+ []
+
+[23]
+Overfull \hbox (33.20549pt too wide) in paragraph at lines 497--501
 \T1/ptm/m/n/12 com-mit 8b20be842e7ca59aae72ecfce593dd778557bbef Au-thor: Ar-cae
 des <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (1.37016pt too wide) in paragraph at lines 494--497
+Overfull \hbox (1.37016pt too wide) in paragraph at lines 507--510
 []\T1/ptm/m/n/12 commit 4577a9e9206e201af0fc710b2b7de0a6965abe6c Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-Overfull \hbox (4.61055pt too wide) in paragraph at lines 500--503
+Overfull \hbox (4.61055pt too wide) in paragraph at lines 513--516
 []\T1/ptm/m/n/12 commit 1998637a88ad45fb73d849a36549fa09b672e275 Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-Overfull \hbox (41.1866pt too wide) in paragraph at lines 510--513
+Overfull \hbox (41.1866pt too wide) in paragraph at lines 523--526
 []\T1/ptm/m/n/12 commit fdc578f2ad24b14117933608cfd003ccbb3bf975 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (37.1184pt too wide) in paragraph at lines 519--522
+Overfull \hbox (37.1184pt too wide) in paragraph at lines 532--535
 []\T1/ptm/m/n/12 commit 40204ffe9ce061bfac294dd88706b8ff56a6ba67 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (37.22575pt too wide) in paragraph at lines 525--528
+Overfull \hbox (37.22575pt too wide) in paragraph at lines 538--541
 []\T1/ptm/m/n/12 commit 675c39836aa2571093c5c1f3207114a2a48e7cb4 Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (32.42561pt too wide) in paragraph at lines 534--537
+Overfull \hbox (32.42561pt too wide) in paragraph at lines 547--550
 []\T1/ptm/m/n/12 commit 195c0a39d9634e79a6fca7dfaa56f11c409c8105 Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (46.52666pt too wide) in paragraph at lines 550--553
+Overfull \hbox (46.52666pt too wide) in paragraph at lines 563--566
 []\T1/ptm/m/n/12 commit a53631f150dd4b5a2409e2e9d479b71cb99c95b0 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-! Package inputenc Error: Unicode char \u8:├ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.554 Underskrift p├
-                      Ñ PAD
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (37.83841pt too wide) in paragraph at lines 556--559
+Overfull \hbox (37.83841pt too wide) in paragraph at lines 569--572
 []\T1/ptm/m/n/12 commit 6434af45e72392dab6c3f401fef5465cf545cb50 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (40.39455pt too wide) in paragraph at lines 562--565
+Overfull \hbox (40.39455pt too wide) in paragraph at lines 575--578
 []\T1/ptm/m/n/12 commit 4cd0fdc87fe731176b8d145f8550e109e1fa1497 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
-[23]
-Overfull \hbox (45.85458pt too wide) in paragraph at lines 568--571
+[24]
+Overfull \hbox (45.85458pt too wide) in paragraph at lines 581--584
 []\T1/ptm/m/n/12 commit bd3b4eba5f5aa239041215ab111d2d0bae4d4489 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (36.57803pt too wide) in paragraph at lines 576--579
+Overfull \hbox (36.57803pt too wide) in paragraph at lines 589--592
 []\T1/ptm/m/n/12 commit 20061346a0c24845a210b70a8354393f54bf563f Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (18.27907pt too wide) in paragraph at lines 584--587
+Overfull \hbox (18.27907pt too wide) in paragraph at lines 597--600
 []\T1/ptm/m/n/12 commit e93c13891bb4264b7d0a729a14d5be02105f79aa Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (28.7774pt too wide) in paragraph at lines 590--593
+Overfull \hbox (28.7774pt too wide) in paragraph at lines 603--606
 []\T1/ptm/m/n/12 commit 75f7cadce41820ca3cc82e31ffad9b3fbaabd98d Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (17.31915pt too wide) in paragraph at lines 598--601
+Overfull \hbox (17.31915pt too wide) in paragraph at lines 611--614
 []\T1/ptm/m/n/12 commit d6be929036b7d326017adc96a4d680b09ff6c180 Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (1.38234pt too wide) in paragraph at lines 604--607
+Overfull \hbox (1.38234pt too wide) in paragraph at lines 617--620
 []\T1/ptm/m/n/12 commit bb6a58e6dcc960b80874ef0f20a69f3c22d2d997 Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-Overfull \hbox (43.17847pt too wide) in paragraph at lines 612--615
+Overfull \hbox (43.17847pt too wide) in paragraph at lines 625--628
 []\T1/ptm/m/n/12 commit 87c8d0e13cc2c07cf6d31e6ddd19bb1b031f89dc Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (37.2501pt too wide) in paragraph at lines 618--621
+Overfull \hbox (37.2501pt too wide) in paragraph at lines 631--634
 []\T1/ptm/m/n/12 commit a2f101fd1d53f2a48a609b4248973931d2246762 Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (43.85054pt too wide) in paragraph at lines 627--630
+Overfull \hbox (43.85054pt too wide) in paragraph at lines 640--643
 []\T1/ptm/m/n/12 commit 0e78c2f140753bee0c9d81675f9a4be3b8b80b62 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (6.0625pt too wide) in paragraph at lines 633--636
+Overfull \hbox (6.0625pt too wide) in paragraph at lines 646--649
 []\T1/ptm/m/n/12 commit 36289677a765ca0b1233cd127c299446420a61f6 Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
-[24]
-
-! Package inputenc Error: Unicode char \u8:├ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.647 Skal ├
-              Ñbenbart commite f├╕r jeg can synce. DONT USE THIS
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:├ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.647 Skal ├Ñbenbart commite f├
-                                    ╕r jeg can synce. DONT USE THIS
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:╕ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.647 Skal ├Ñbenbart commite f├╕
-                                       r jeg can synce. DONT USE THIS
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (43.19064pt too wide) in paragraph at lines 649--652
+[25]
+Overfull \hbox (43.19064pt too wide) in paragraph at lines 662--665
 []\T1/ptm/m/n/12 commit 696e4999ede32af3353b7b76f32b9f7d50d14e85 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (41.93027pt too wide) in paragraph at lines 655--658
+Overfull \hbox (41.93027pt too wide) in paragraph at lines 668--671
 []\T1/ptm/m/n/12 commit 7757964b1829bbb72615b62835f3865b36c4eb94 Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (41.85867pt too wide) in paragraph at lines 664--667
+Overfull \hbox (41.85867pt too wide) in paragraph at lines 677--680
 []\T1/ptm/m/n/12 commit f7b07df6661d4d4e7b28feded204a7b24f27b559 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (38.4983pt too wide) in paragraph at lines 670--673
+Overfull \hbox (38.4983pt too wide) in paragraph at lines 683--686
 []\T1/ptm/m/n/12 commit 298c0df1a827d7abe8e8f64ab4dbfcae728814fd Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (20.29529pt too wide) in paragraph at lines 676--679
+Overfull \hbox (20.29529pt too wide) in paragraph at lines 689--692
 []\T1/ptm/m/n/12 commit 5370d72b85a93d892e3ab1788d7b54f288c55842 Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (16.93492pt too wide) in paragraph at lines 682--685
+Overfull \hbox (16.93492pt too wide) in paragraph at lines 695--698
 []\T1/ptm/m/n/12 commit b0eee357d0624164d6b055d0f920a88be07eeee4 Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (11.29485pt too wide) in paragraph at lines 688--691
+Overfull \hbox (11.29485pt too wide) in paragraph at lines 701--704
 []\T1/ptm/m/n/12 commit 3045fee9ccf70078c5da93925c67dff383287c11 Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (4.443pt too wide) in paragraph at lines 701--705
+Overfull \hbox (4.443pt too wide) in paragraph at lines 714--718
 []\T1/ptm/m/n/12 Conflicts: Del-rap-port 1/1 op-gaver.log Del-rap-port 1/1 op-g
 aver.pdf Del-rap-port 1/1 op-gaver.synctex.gz 
  []
 
 
-Overfull \hbox (39.24197pt too wide) in paragraph at lines 706--709
+Overfull \hbox (39.24197pt too wide) in paragraph at lines 719--722
 []\T1/ptm/m/n/12 commit db797ee5d68ac6723f919d152a86b9033875327a Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (16.2872pt too wide) in paragraph at lines 712--715
+Overfull \hbox (16.2872pt too wide) in paragraph at lines 725--728
 []\T1/ptm/m/n/12 commit 8ee517f6998900948287d6f762d72902b5f959ce Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (32.41344pt too wide) in paragraph at lines 718--721
+Overfull \hbox (32.41344pt too wide) in paragraph at lines 731--734
 []\T1/ptm/m/n/12 commit ebe615ae222932117f361dcfa6db94c4e96caaaa Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
-[25]
-Overfull \hbox (34.32185pt too wide) in paragraph at lines 726--729
+[26]
+Overfull \hbox (34.32185pt too wide) in paragraph at lines 739--742
 []\T1/ptm/m/n/12 commit 339fa41b0ea5833d997d0a3156fa393f777a91c2 Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (4.07063pt too wide) in paragraph at lines 734--737
+Overfull \hbox (4.07063pt too wide) in paragraph at lines 747--750
 []\T1/ptm/m/n/12 commit 0d21845509f086db663ddd3e1f9bc837a48431f0 Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-! Package inputenc Error: Unicode char \u8:├ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.741 nu, har ikke mere materiale til r├
-                                          Ñdighed nu.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (13.58673pt too wide) in paragraph at lines 745--748
+Overfull \hbox (13.58673pt too wide) in paragraph at lines 758--761
 []\T1/ptm/m/n/12 commit c129a2c8d39a08817ae8b1af6f4e66e52b70c8e3 Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (15.48297pt too wide) in paragraph at lines 753--756
+Overfull \hbox (15.48297pt too wide) in paragraph at lines 766--769
 []\T1/ptm/m/n/12 commit b0d9a30e25ab130b74aae20dfc13751086fad25d Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (9.45866pt too wide) in paragraph at lines 761--764
+Overfull \hbox (9.45866pt too wide) in paragraph at lines 774--777
 []\T1/ptm/m/n/12 commit c477a2f0b1cd43f3e8c5f5fad3ee5610d45ec5a9 Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (42.5064pt too wide) in paragraph at lines 769--772
+Overfull \hbox (42.5064pt too wide) in paragraph at lines 782--785
 []\T1/ptm/m/n/12 commit 57514365ae01e66fc840a1a83a9179da99af024b Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (6.73457pt too wide) in paragraph at lines 775--778
+Overfull \hbox (6.73457pt too wide) in paragraph at lines 788--791
 []\T1/ptm/m/n/12 commit 6d0c506dba8431f54e9981bc898c830886223327 Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-Overfull \hbox (2.72649pt too wide) in paragraph at lines 781--784
+Overfull \hbox (2.72649pt too wide) in paragraph at lines 794--797
 []\T1/ptm/m/n/12 commit 0df006f92077a6b459be84ea12024602cf1d2085 Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-Overfull \hbox (42.51857pt too wide) in paragraph at lines 787--790
+Overfull \hbox (42.51857pt too wide) in paragraph at lines 800--803
 []\T1/ptm/m/n/12 commit f2cdb6502564f898d552c8f5155ea625e0bad597 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (41.17442pt too wide) in paragraph at lines 793--796
+Overfull \hbox (41.17442pt too wide) in paragraph at lines 806--809
 []\T1/ptm/m/n/12 commit 783af0a7dd52a49736377bcf7fcad341bd6ae45b Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
-[26]
-Overfull \hbox (31.8857pt too wide) in paragraph at lines 801--804
+[27]
+Overfull \hbox (31.8857pt too wide) in paragraph at lines 814--817
 []\T1/ptm/m/n/12 commit 16bfea5826fec94696e582579f37c8fd2ec56984 Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (45.19469pt too wide) in paragraph at lines 809--812
+Overfull \hbox (45.19469pt too wide) in paragraph at lines 822--825
 []\T1/ptm/m/n/12 commit 5c8451d83064b0c0b29857c8f75712a86f11ebb4 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (20.29529pt too wide) in paragraph at lines 817--820
+Overfull \hbox (20.29529pt too wide) in paragraph at lines 830--833
 []\T1/ptm/m/n/12 commit dd63eb090704d7f502b7b79397047ad4976ad58e Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
 
-Overfull \hbox (45.8424pt too wide) in paragraph at lines 823--826
+Overfull \hbox (45.8424pt too wide) in paragraph at lines 836--839
 []\T1/ptm/m/n/12 commit 6b0723be7163a375c2a9a2e5359a777d04aaa285 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (41.05444pt too wide) in paragraph at lines 829--832
+Overfull \hbox (41.05444pt too wide) in paragraph at lines 842--845
 []\T1/ptm/m/n/12 commit be9faa6af526e161f19e2c7ad3d64877d004d380 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (45.86676pt too wide) in paragraph at lines 835--838
+Overfull \hbox (45.86676pt too wide) in paragraph at lines 848--851
 []\T1/ptm/m/n/12 commit 078727206a345068ad71637c608e7fd16257f130 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (40.50235pt too wide) in paragraph at lines 841--844
+Overfull \hbox (40.50235pt too wide) in paragraph at lines 854--857
 []\T1/ptm/m/n/12 commit 00a67141008584aed46537f9fe63f2aa2e6e86a7 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (39.2298pt too wide) in paragraph at lines 853--856
+Overfull \hbox (39.2298pt too wide) in paragraph at lines 866--869
 []\T1/ptm/m/n/12 commit d20a46817e08e7613bc7a6b16d668e48cebc7b63 Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (35.10173pt too wide) in paragraph at lines 859--862
+Overfull \hbox (35.10173pt too wide) in paragraph at lines 872--875
 []\T1/ptm/m/n/12 commit 96050dbd1e2b98be793fcd90607a0d36cefaba0a Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (21.62726pt too wide) in paragraph at lines 868--871
+Overfull \hbox (21.62726pt too wide) in paragraph at lines 881--884
 []\T1/ptm/m/n/12 commit da46259144ba11472c71b59d9b5a23039996858c Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
-[27]
-Overfull \hbox (46.51448pt too wide) in paragraph at lines 874--877
+[28]
+Overfull \hbox (46.51448pt too wide) in paragraph at lines 887--890
 []\T1/ptm/m/n/12 commit 4c5850dbebe4dc945c52d14bdcdd7d123677ace1 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (41.72652pt too wide) in paragraph at lines 880--883
+Overfull \hbox (41.72652pt too wide) in paragraph at lines 893--896
 []\T1/ptm/m/n/12 commit fa8824f3801c8de0b346d385762fc8a090485a2e Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (45.85458pt too wide) in paragraph at lines 886--889
+Overfull \hbox (45.85458pt too wide) in paragraph at lines 899--902
 []\T1/ptm/m/n/12 commit 906e4ca7670e3a2340423a03b92635f3627a5041 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (32.55777pt too wide) in paragraph at lines 892--895
+Overfull \hbox (32.55777pt too wide) in paragraph at lines 905--908
 []\T1/ptm/m/n/12 commit 0789c6f12293fd05c1f67e31535fbac089ec5b3d Au-thor: Ar-ca
 edes <casper.lutzhoft@gmail.com>
  []
 
 
-Overfull \hbox (47.85863pt too wide) in paragraph at lines 900--903
+Overfull \hbox (47.85863pt too wide) in paragraph at lines 913--916
 []\T1/ptm/m/n/12 commit acb432477ecd86315b4c18059172ae99569b6194 Au-thor: Tor-S
 alve <tor-salve.dalsgaard@yahoo.de>
  []
 
 
-Overfull \hbox (5.4026pt too wide) in paragraph at lines 912--915
+Overfull \hbox (5.4026pt too wide) in paragraph at lines 925--928
 []\T1/ptm/m/n/12 commit 9efec634675f963b5455292637582147676a557b Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-Overfull \hbox (2.71431pt too wide) in paragraph at lines 920--923
+Overfull \hbox (2.71431pt too wide) in paragraph at lines 933--936
 []\T1/ptm/m/n/12 commit 13eef8153adf3e5c672ee19713b009108c0d0200 Au-thor: gol1c
  <enes-golic@live.dk> Date:
  []
 
 
-Overfull \hbox (16.27502pt too wide) in paragraph at lines 928--931
+Overfull \hbox (16.27502pt too wide) in paragraph at lines 941--944
 []\T1/ptm/m/n/12 commit 0851690c2269aa1347c9af60231434a85ed71df1 Au-thor: yunus
 73 <yun933141@gmail.com>
  []
 
-[28]
-Overfull \hbox (22.8934pt too wide) detected at line 967
+[29]
+Overfull \hbox (22.8934pt too wide) detected at line 981
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 970--971
+Underfull \hbox (badness 10000) in paragraph at lines 984--985
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 973--976
+Underfull \hbox (badness 10000) in paragraph at lines 987--990
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--982
+Underfull \hbox (badness 10000) in paragraph at lines 994--996
 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 983--986
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 989.
 [30]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 989.
+Underfull \hbox (badness 10000) in paragraph at lines 997--1000
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1003.
+[31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1003.
  ("Delrapport 4.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 989.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 989.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1003.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1003.
+
 Package rerunfilecheck Info: File `"Delrapport 4".out' has not changed.
-(rerunfilecheck)             Checksum: FA6E9C09A27289A9E21AD85D1929EA44;2007.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 989.
+(rerunfilecheck)             Checksum: C88080AF5B78D105075EE64E37643E19;2128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1003.
  ) 
 Here is how much of TeX's memory you used:
- 11681 strings out of 493698
- 158648 string characters out of 3144410
+ 11689 strings out of 493698
+ 158787 string characters out of 3144410
  332303 words of memory out of 3000000
- 14695 multiletter control sequences out of 15000+200000
+ 14699 multiletter control sequences out of 15000+200000
  48546 words of font info for 80 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,17n,40p,3278b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,17n,40p,3278b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
 s/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -1662,9 +1613,9 @@ fonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt12
 00.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Delrapport 4.pdf" (30 pages, 883729 bytes).
+Output written on "Delrapport 4.pdf" (31 pages, 982049 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

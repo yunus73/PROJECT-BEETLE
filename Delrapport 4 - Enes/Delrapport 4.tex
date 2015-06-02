@@ -12,6 +12,7 @@
 \setlength{\oddsidemargin}{0mm}
 \setlength{\topmargin}{0mm}
 \setlength{\evensidemargin}{0mm}
+\usepackage[utf8]{inputenc}
 \usepackage{multicol}
 \usepackage{blindtext}
 \usepackage[all]{xy}
@@ -368,12 +369,16 @@ At the current-stage of our product everything is fully functional.\\
 The database consists of insect-entries, with order, family, genus, species, subspecies, description and the name of the .zip archive containing the high-resolution zoomify image of the insect as attributes.
 Both the search-function and the advanced search-function are fully functional, and a method of displaying all existing entries in the database has been added (by simply searching for no term).
 The database is now editable by either adding or deleting entries.\\
-To add an entry you must now first upload an archive containing the zoomify image of an insect, and thereafter enter the appropriate information into its respective attributes, as well as enter the name of the archive which you uploaded.
+To add an entry you must now first upload an archive containing the zoomify image of an insect, and thereafter enter the appropriate information into its respective attributes, as well as enter the name of the archive which you uploaded.\\
+If the specimen of insect being added is a threatened species, a checkbox is simply marked before submitting the entry - it is then hidden unless you have a guest login.\\
 Deleting an entry is done simply by marking a checkbox and clicking a delete-button.
+It is possible for an administrator to create guest users, simply by logging into the control-panel and entering a username and a password. These users can also simply be deleted again in the same interface.\\
+Deleting an entry is done simply by marking a checkbox and clicking a delete-button.
+
 At this point, all functional requirements have been fulfilled, and our work going forward is:
 \begin{itemize}
 \item Improve the design to better match that of the University of Hamburg's existing website
-\item Implement any further wises the client may have
+\item Implement any further wishes the client may have
 \end{itemize}
 \newpage
 \section{Testing}
@@ -415,6 +420,14 @@ In order to showcase the unit-interface of the product, a series of screenshots 
 \includegraphics[height=225mm]{UI2.pdf}
 \newpage
 \includegraphics[height=225mm]{UI3.pdf}\\
+
+\subsection{Flowchart}
+
+To get a better feel for how the pictures combine, a flowchart has been created that depicts how the website is navigated:
+
+\includegraphics[height=135mm]{Flowchart.png}
+
+\subsection{Demo Video}
 In addition to these screenshots, a video has also been recorded which showcases the functionality of the website. It can be found at: \url{https://www.youtube.com/watch?v=pAkcdgJnbgc}
 
 
@@ -551,7 +564,7 @@ commit a53631f150dd4b5a2409e2e9d479b71cb99c95b0
 Author: TorSalve <torsalve.dalsgaard@yahoo.de>
 Date:   Tue May 12 11:49:17 2015 +0200
 
-Underskrift p├Ñ PAD
+Underskrift på PAD
 
 commit 6434af45e72392dab6c3f401fef5465cf545cb50
 Author: TorSalve <torsalve.dalsgaard@yahoo.de>
@@ -644,7 +657,7 @@ Date:   Tue Apr 21 23:24:08 2015 +0200
 
 okok
 
-Skal ├Ñbenbart commite f├╕r jeg can synce. DONT USE THIS
+Skal åbenbart commite før jeg can synce. DONT USE THIS
 
 commit 696e4999ede32af3353b7b76f32b9f7d50d14e85
 Author: TorSalve <torsalve.dalsgaard@yahoo.de>
@@ -738,7 +751,7 @@ Date:   Mon Mar 30 11:42:09 2015 +0200
 Delrapport 1- rettelse 1
 
 Der mangler stadig meget at skulle rettes drenge. Jeg kan ikke lave mere
-nu, har ikke mere materiale til r├Ñdighed nu.
+nu, har ikke mere materiale til rådighed nu.
 
 Skriv til mig, vi skal have lavet det her.
 
@@ -933,6 +946,7 @@ Hello Casper
 
 Casper is VERY BALD
 
+
 \noindent\makebox[\linewidth]{\rule{16.5cm}{0.4pt}}
 
 The code at this point in time have been developed in cooperation with the entire group through meetings at the school, where we worked on the code on only a single computer. As such, the Github log will not bear trace of editing of the code. The line 696e499 however shows the addition of the beta-version's code to the project's folder.
@@ -967,15 +981,15 @@ The code at this point in time have been developed in cooperation with the entir
 	$$
 \subsection{Timeline}
 
-	Initial custommer contact - {\bf 12th of March} - The custommer explained the desired functionality for the search-engine and their expectations of the outcome of the project. \\
+	Initial customer contact - {\bf 12th of March} - The customer explained the desired functionality for the search-engine and their expectations of the outcome of the project. \\
 	
 	
-	Report 1 - {\bf 21st of March} - The custommer received a copy of our first report, in order for them to view our progress and method of work.
-	The custommer here expressed their desire for a more advanced option of using the search-engine. The exact specifics of what this should contain have not yet been stated, but they said they'd get back to us.
+	Report 1 - {\bf 21st of March} - The customer received a copy of our first report, in order for them to view our progress and method of work.
+	The customer here expressed their desire for a more advanced option of using the search-engine. The exact specifics of what this should contain have not yet been stated, but they said they'd get back to us.
 	They also expressed their desire for a dropdown menu showcasing all the entries in the database, in order to give the visitors a better overview.\\
 	
 	
-	Prototype - {\bf 21st of April} - The custommer was officially shown the prototype of our search-engine, and they approved of its design. They pointed out some modifications that had to be made, most notably the correcting the attributes and wanting a new attribute, order, added. The correct order of attribute entries have now been specified as order, family, genus and species.\\
+	Prototype - {\bf 21st of April} - The customer was officially shown the prototype of our search-engine, and they approved of its design. They pointed out some modifications that had to be made, most notably the correcting the attributes and wanting a new attribute, order, added. The correct order of attribute entries have now been specified as order, family, genus and species.\\
 	
 	Finished product - {\bf 11th of May} - On this date all functionality missing from the website was implemented and tested, so that we would end up with a product that (apart from a particular bug) is complete.\\
 	It was also shown to the University of Hamburg, where they expressed great satisfaction with our product, and also the way we provided the option for displaying all entries, even prefering it to the one they had originally desired.\\
