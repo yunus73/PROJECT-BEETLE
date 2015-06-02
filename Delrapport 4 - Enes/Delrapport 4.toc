@@ -33,3 +33,6 @@
 \contentsline {subsection}{\numberline {9.2}Github Log}{24}{subsection.9.2}
 \contentsline {subsection}{\numberline {9.3}Changelog}{30}{subsection.9.3}
 \contentsline {subsection}{\numberline {9.4}Timeline}{30}{subsection.9.4}
+\contentsline {section}{\numberline {10}Sources}{32}{section.10}
+\contentsline {subsection}{\numberline {10.1}Books}{32}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Websites}{32}{subsection.10.2}
